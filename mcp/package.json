@@ -1,0 +1,14 @@
+{
+  "name": "open-apis-korea-mcp",
+  "version": "1.0.0",
+  "description": "한국 오픈 API 카탈로그를 검색하는 MCP 서버",
+  "type": "module",
+  "bin": { "open-apis-korea-mcp": "server.js" },
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  }
+}
