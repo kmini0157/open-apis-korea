@@ -1,0 +1,7112 @@
+[
+  {
+    "name": "24 Pull Requests",
+    "url": "https://24pullrequests.com/api",
+    "description": "12월 동안 오픈 소스 협업을 촉진하기 위한 프로젝트",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "Agify.io",
+    "url": "https://agify.io",
+    "description": "이름에서 연령을 추정합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "ApiFlash",
+    "url": "https://apiflash.com/",
+    "description": "개발자를 위한 크롬 기반 스크린샷 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Apility.io",
+    "url": "https://apility.io/apidocs/",
+    "description": "IP, 도메인 및 이메일 어뷰징을 막기위한 API 차단 목록",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "APIs.guru",
+    "url": "https://apis.guru/api-doc/",
+    "description": "공공 API를 위한 웹 API용 위키백과, OpenAPI/Swagger 스펙",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "BetterMeta",
+    "url": "http://bettermeta.io",
+    "description": "사이트의 메타 태그를 JSON 포멧으로 반환합니다.",
+    "auth": "X-Mashape-Key",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Bitbucket",
+    "url": "https://api.bitbucket.org/2.0/users/karllhughes",
+    "description": "공공정보를 Bitbucket 계정에 가져옵시다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Bored",
+    "url": "https://www.boredapi.com/",
+    "description": "지루함에 맞설 무작위 활동을 찾아보세요.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Browshot",
+    "url": "https://browshot.com/api/documentation",
+    "description": "웹 페이지의 스크린샷을 모든 화면 크기, 모든 기기 크기로 쉽게 만들 수 있습니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "CDNJS",
+    "url": "https://api.cdnjs.com/libraries/jquery",
+    "description": "CDNJS의 라이브러리 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Changelogs.md",
+    "url": "https://changelogs.md",
+    "description": "오픈소스 프로젝트의 구조화된 변화 로그 메타데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "CountAPI",
+    "url": "https://countapi.xyz",
+    "description": "무료 및 간단한 카운팅 서비스, 페이지 히트 및 특정 이벤트를 추적하는 데 사용할 수 있습니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "DigitalOcean Status",
+    "url": "https://status.digitalocean.com/api/v1",
+    "description": "모든 DigitalOcean 서비스의 상태",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "DomainDb Info",
+    "url": "https://domainsdb.info/apidomainsdb/index.php",
+    "description": "특정 단어/문자/etc를 포함하는 모든 도메인을 찾기 위한 도메인 이름 검색기",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Faceplusplus",
+    "url": "https://www.faceplusplus.com/",
+    "description": "얼굴을 감지하는 도구",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Genderize.io",
+    "url": "https://genderize.io",
+    "description": "이름에서 성별을 알아냅니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://developer.github.com/v3/",
+    "description": "GitHub 저장소, 코드 및 사용자 정보를 프로그래밍 방식으로 이용합니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "Gitlab",
+    "url": "https://docs.gitlab.com/ee/api/",
+    "description": "GitLab 상호 작용을 프로그래밍 방식으로 자동화합니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Gitter",
+    "url": "https://github.com/gitterHQ/docs",
+    "description": "GitHub를 위한 채팅",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "HTTP2.Pro",
+    "url": "https://http2.pro/doc/api",
+    "description": "클라이언트 및 서버 HTTP/2 프로토콜 지원을 테스트합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "IBM Text to Speech",
+    "url": "https://console.bluemix.net/docs/services/text-to-speech/getting-started.html",
+    "description": "텍스트를 음성으로 변환합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "Import.io",
+    "url": "http://api.docs.import.io/",
+    "description": "웹 사이트 또는 RSS 피드로부터 구조화된 데이터를 검색합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "IPify",
+    "url": "https://www.ipify.org/",
+    "description": "간단한 IP 주소 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "IPinfo",
+    "url": "https://ipinfo.io/developers",
+    "description": "간단한 IP 주소",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "JSON 2 JSONP",
+    "url": "https://json2jsonp.com/",
+    "description": "클라이언트 측에서 JavaScript를 사용하여 도메인 간 데이터 요청을 쉽게 처리하기 위해 즉시 JSON를 JSONP로 변환합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "JSONbin.io",
+    "url": "https://jsonbin.io",
+    "description": "무료 JSON 스토리지 서비스입니다. 소규모 웹 애플리케이션, 웹 사이트 및 모바일 애플리케이션에 적합합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "Judge0",
+    "url": "https://api.judge0.com/",
+    "description": "소스 코드를 컴파일하고 실행합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Let's Validate",
+    "url": "https://github.com/letsvalidate/api",
+    "description": "웹 사이트 및 URL에서 썸네일을 추출하는데 사용하는 기술을 공개합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "License-API",
+    "url": "https://github.com/cmccandless/license-api/blob/master/README.md",
+    "description": "choosealicense.com를 위한 비공식 REST API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "LiveEdu",
+    "url": "https://www.liveedu.tv/developer/applications/",
+    "description": "실시간 코딩 스트리밍",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "MAC address vendor lookup",
+    "url": "https://macaddress.io",
+    "description": "MAC 주소 또는 OUI에 대한 벤더 세부 정보 및 기타 정보를 가져옵니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "Myjson",
+    "url": "http://myjson.com/api",
+    "description": "웹이나 모바일 앱을 위한 간단한 JSON 스토어",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Nationalize.io",
+    "url": "https://nationalize.io",
+    "description": "이름으로 국적을 추정합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "OOPSpam",
+    "url": "https://oopspam.com/",
+    "description": "다중 스팸 필터링 서비스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "Plino",
+    "url": "https://plino.herokuapp.com/",
+    "description": "스팸 필터링 시스템",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Postman",
+    "url": "https://docs.api.getpostman.com/",
+    "description": "API를 테스트하기 위한 도구",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "ProxyCrawl",
+    "url": "https://proxycrawl.com",
+    "description": "안티캡차 서비스를 스크랩하고 크롤링합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Public APIs",
+    "url": "https://github.com/davemachado/public-api",
+    "description": "웹 개발에 사용할 수 있는 무료 JSON API 목록",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Public APIs Korea",
+    "url": "https://github.com/dl0312/public-apis-korea",
+    "description": "한국어 사용자를 위한 웹 개발에 사용할 수 있는 무료 JSON API 목록",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Pusher Beams",
+    "url": "https://pusher.com/beams",
+    "description": "Android & iOS에 대한 알림을 보냅니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "QR tag",
+    "url": "http://qrtag.net/api/",
+    "description": "읽기 쉬운 QR 코드와 URL 쇼트너를 만듭니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "QR code",
+    "url": "http://goqr.me/api/",
+    "description": "QR 코드를 생성하고 해석하여 읽습니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "QuickChart",
+    "url": "https://quickchart.io/",
+    "description": "차트 및 그래프 이미지를 생성합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "ReqRes",
+    "url": "https://reqres.in/",
+    "description": "AJAX 요청에 응답할 준비가 된 호스팅된 REST-API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Scrape Website Email",
+    "url": "https://market.mashape.com/tommytcchan/scrape-website-email",
+    "description": "URL에서 이메일 주소를 가져옵니다.",
+    "auth": "X-Mashape-Key",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "ScraperApi",
+    "url": "https://www.scraperapi.com",
+    "description": "확장 가능한 웹 스크래퍼를 쉽게 제작합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "ScreenshotAPI.net",
+    "url": "https://screenshotapi.net/",
+    "description": "픽셀 단위까지 완벽한 웹 사이트 스크린샷을 생성합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "개발"
+  },
+  {
+    "name": "SHOUTCLOUD",
+    "url": "http://shoutcloud.io/",
+    "description": "영어 문자열을 모두 대문자로 만들어주는 서비스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "StackExchange",
+    "url": "https://api.stackexchange.com/",
+    "description": "개발자들을 위한 Q&A 포럼",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "Verse",
+    "url": "https://verse.pawelad.xyz/",
+    "description": "가장 좋아하는 오픈 소스 프로젝트의 최신 버전을 확인합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "XML to JSON",
+    "url": "https://developers.wso2apistore.com/",
+    "description": "개발자 유틸리티 통합 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "개발"
+  },
+  {
+    "name": "BetterDoctor",
+    "url": "https://developer.betterdoctor.com/",
+    "description": "근방에 있는 의사에 대한 자세한 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "건강"
+  },
+  {
+    "name": "Diabetes",
+    "url": "http://predictbgl.com/api/",
+    "description": "당뇨병 정보 기록 및 검색",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "건강"
+  },
+  {
+    "name": "Flutrack",
+    "url": "http://www.flutrack.org/",
+    "description": "지오트래킹으로 인플루엔자 증상 현황을 확인합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "건강"
+  },
+  {
+    "name": "Healthcare.gov",
+    "url": "https://www.healthcare.gov/developers/",
+    "description": "미국 의료 보험 시장 관련 교육 콘텐츠",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "건강"
+  },
+  {
+    "name": "Lexigram",
+    "url": "https://docs.lexigram.io/v1/welcome",
+    "description": "텍스트에서 임상 개념의 언급을 추출하여, 임상 종양학에 대한 접근을 제공하는 NLP",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "건강"
+  },
+  {
+    "name": "Makeup",
+    "url": "http://makeup-api.herokuapp.com/",
+    "description": "메이크업 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "건강"
+  },
+  {
+    "name": "Medicare",
+    "url": "https://data.medicare.gov/developers",
+    "description": "medicare.gov의 CMS의 데이터를 접근합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "건강"
+  },
+  {
+    "name": "NPPES",
+    "url": "https://npiregistry.cms.hhs.gov/registry/help-api",
+    "description": "미국에 등록된 의료 공급업체에 대한 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "건강"
+  },
+  {
+    "name": "Nutritionix",
+    "url": "https://developer.nutritionix.com/",
+    "description": "세계 최대 규모의 검증된 영양 데이터베이스",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "건강"
+  },
+  {
+    "name": "openFDA",
+    "url": "https://open.fda.gov",
+    "description": "약, 장치 및 식품에 대한 FDA의 공식 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "건강"
+  },
+  {
+    "name": "USDA Nutrients",
+    "url": "https://ndb.nal.usda.gov/ndb/doc/index",
+    "description": "표준 참조를 위한 국가 영양 데이터베이스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "건강"
+  },
+  {
+    "name": "Age of Empires II",
+    "url": "https://age-of-empires-2-api.herokuapp.com",
+    "description": "에이지 오브 엠파이어 II의 리소스에 대한 정보를 얻습니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "AmiiboAPI",
+    "url": "http://www.amiiboapi.com/",
+    "description": "아미보 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": true,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Battle.net",
+    "url": "https://dev.battle.net/",
+    "description": "블리자드 엔터테인먼트",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Chuck Norris Database",
+    "url": "http://www.icndb.com/api/",
+    "description": "농담 모음",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Clash of Clans",
+    "url": "https://developer.clashofclans.com",
+    "description": "클래시 오브 클랜 게임 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Clash Royale",
+    "url": "https://developer.clashroyale.com",
+    "description": "클래시 로얄 게임 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Comic Vine",
+    "url": "https://comicvine.gamespot.com/api/documentation",
+    "description": "코믹스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Deck of Cards",
+    "url": "http://deckofcardsapi.com/",
+    "description": "카드 덱",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Destiny The Game",
+    "url": "https://github.com/Bungie-net/api",
+    "description": "번지 플랫폼 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Dota 2",
+    "url": "https://docs.opendota.com/",
+    "description": "도타 2의 플레이어 통계, 매치 통계, 랭킹 정보를 제공합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Dungeons and Dragons",
+    "url": "http://www.dnd5eapi.co/",
+    "description": "던전 앤 드래곤 5번째 에디션의 주문, 클래스, 몬스터 등에 대한 참조",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Eve Online",
+    "url": "https://esi.evetech.net/ui",
+    "description": "이브 온라인 서드파티 개발자 문서",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Final Fantasy XIV",
+    "url": "https://xivapi.com/",
+    "description": "파이널 판타지 XIV 게임 데이터 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Fortnite",
+    "url": "https://fortniteapi.com/",
+    "description": "포트나이트 통계 & 치장 아이템",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Fortnite",
+    "url": "https://fortnitetracker.com/site-api",
+    "description": "포트나이트 통계",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Giant Bomb",
+    "url": "https://www.giantbomb.com/api/documentation",
+    "description": "비디오 게임",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Guild Wars 2",
+    "url": "https://wiki.guildwars2.com/wiki/API:Main",
+    "description": "길드 워 2 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Halo",
+    "url": "https://developer.haloapi.com/",
+    "description": "헤일로 5와 헤일로 워즈 2 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Hearthstone",
+    "url": "http://hearthstoneapi.com/",
+    "description": "하스스톤 카드 정보",
+    "auth": "X-Mashape-Key",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Hypixel",
+    "url": "https://api.hypixel.net/",
+    "description": "하이픽셀 플레이어 통계",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "IGDB.com",
+    "url": "https://api.igdb.com/",
+    "description": "비디오 게임 데이터베이스",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "JokeAPI",
+    "url": "https://sv443.net/jokeapi",
+    "description": "프로그래밍, 어두운 그리고 이것저것 다양한 농담",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Jokes",
+    "url": "https://github.com/15Dkatz/official_joke_api",
+    "description": "프로그래밍과 일반적 농담",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Jservice",
+    "url": "http://jservice.io",
+    "description": "《제퍼디!》 게임 쇼의 문제 데이터베이스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Magic The Gathering",
+    "url": "http://magicthegathering.io/",
+    "description": "매직: 더 개더링 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Marvel",
+    "url": "http://developer.marvel.com",
+    "description": "마블 코믹스",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "mod.io",
+    "url": "https://docs.mod.io",
+    "description": "크로스 플랫폼 사이트 모드 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Open Trivia",
+    "url": "https://opentdb.com/api_config.php",
+    "description": "잡학 문제",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "PandaScore",
+    "url": "https://api.pandascore.co",
+    "description": "E-스포츠 게임과 결과",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "PlayerUnknown's Battlegrounds",
+    "url": "https://pubgtracker.com/site-api",
+    "description": "배틀그라운드(PUBG) 통계",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Pokéapi",
+    "url": "https://pokeapi.co",
+    "description": "포켓몬스터 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Pokémon TCG",
+    "url": "https://pokemontcg.io",
+    "description": "포켓몬스터 TCG 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Rick and Morty",
+    "url": "https://rickandmortyapi.com",
+    "description": "이미지를 포함한 모든 릭 앤 모티 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Riot Games",
+    "url": "https://developer.riotgames.com/",
+    "description": "리그 오브 레전드 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Scryfall",
+    "url": "https://scryfall.com/docs/api",
+    "description": "매직: 더 개더링 데이터베이스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Steam",
+    "url": "https://developer.valvesoftware.com/wiki/Steam_Web_API",
+    "description": "스팀 클라이언트 상호작용",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "SuperHeroes",
+    "url": "https://superheroapi.com",
+    "description": "단일 API로 모든 유니버스의 모든 슈퍼히어로와 악당 데이터를 가져옵니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Tronald Dump",
+    "url": "https://www.tronalddump.io/",
+    "description": "도널드 트럼프 대통령이 한 말 중에 가장 바보 같은 말들",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Vainglory",
+    "url": "https://developer.vainglorygame.com/",
+    "description": "베인글로리 플레이어, 매치와 원격측정",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "Wargaming.net",
+    "url": "https://developers.wargaming.net/",
+    "description": "Wargaming.net의 정보와 통계",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "xkcd",
+    "url": "https://xkcd.com/json.html",
+    "description": "xkcd 만화를 JSON으로 얻어옵니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "게임 & 만화"
+  },
+  {
+    "name": "arcsecond.io",
+    "url": "https://api.arcsecond.io/",
+    "description": "여러 천문학 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "CORE",
+    "url": "https://core.ac.uk/services#api",
+    "description": "전 세계의 공개적으로 접근 가능한 연구 보고서에 접근합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "GBIF",
+    "url": "http://api.gbif.org/v1/",
+    "description": "전 세계 생물 다양성 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "iDigBio",
+    "url": "https://github.com/idigbio/idigbio-search-api/wiki",
+    "description": "전 세계 조직의 수백만 개의 박물관 견본에 접근합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "inspirehep.net",
+    "url": "https://inspirehep.net/info/hep/api?ln=en",
+    "description": "높은 에너지 물리학 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "ITIS",
+    "url": "https://www.itis.gov/ws_description.html",
+    "description": "통합 분류학 정보 시스템",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "Launch Library",
+    "url": "https://launchlibrary.net/docs/1.3/api.html",
+    "description": "다가오는 우주선 발사",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "Minor Planet Center",
+    "url": "http://www.asterank.com/mpc",
+    "description": "Asterank.com 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "NASA",
+    "url": "https://api.nasa.gov",
+    "description": "사진을 포함한 NASA 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "NASA APOD (unofficial API)",
+    "url": "https://apodapi.herokuapp.com/",
+    "description": "메타데이터와 함께 APOD(Astronomy Image of the Day) 이미지를 가져올 수 있는 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "Newton",
+    "url": "https://newton.now.sh/",
+    "description": "기호 및 산술 함수 계산기",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "Numbers",
+    "url": "http://numbersapi.com",
+    "description": "숫자에 대한 사실들",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "Open Notify",
+    "url": "http://open-notify.org/Open-Notify-API/",
+    "description": "ISS 우주비행사, 현재 위치 등",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "Open Science Framework",
+    "url": "https://developer.osf.io",
+    "description": "스터디 설계, 연구 자료, 데이터, 원고 등을 위한 저장소와 아카이브",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "SHARE",
+    "url": "https://share.osf.io/api/v2/",
+    "description": "연구 및 학술 활동에 대한 무료 공개 데이터 세트",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "SpaceX",
+    "url": "https://github.com/r-spacex/SpaceX-API",
+    "description": "회사, 차량, 런치패드 및 론칭 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "Sunrise and Sunset",
+    "url": "https://sunrise-sunset.org/api",
+    "description": "주어진 위도 및 경도에 대한 일출 및 일출 시간",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "Trefle",
+    "url": "https://trefle.io/",
+    "description": "식물 종에 대한 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "USGS Earthquake Hazards Program",
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+    "description": "실시간 지진 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "USGS Water Services",
+    "url": "https://waterservices.usgs.gov/",
+    "description": "강과 호수에 대한 수질과 수위 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "World Bank",
+    "url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589",
+    "description": "가난이 없는 세상을 위해 일합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "과학 & 수학"
+  },
+  {
+    "name": "ADS-B Exchange",
+    "url": "https://www.adsbexchange.com/data/",
+    "description": "모든 항공기의 실시간 및 과거 데이터에 접근합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "AIS Hub",
+    "url": "http://www.aishub.net/api",
+    "description": "AIS 추적 시스템이 장착된 모든 해양 및 내륙 선박의 실시간 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "AIS Web",
+    "url": "http://www.aisweb.aer.mil.br/api/doc/index.cfm",
+    "description": "항공 우주 제어부(DECEA)에서 제작한 디지털 미디어로 된 항공 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Amadeus Travel Innovation Sandbox",
+    "url": "https://sandbox.amadeus.com/",
+    "description": "여행 검색 - 사용량이 제한",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Bay Area Rapid Transit",
+    "url": "http://api.bart.gov",
+    "description": "BART(Bay Area Rapid Transit) 정류장과 도착예정 시간",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "BlaBlaCar",
+    "url": "https://dev.blablacar.com",
+    "description": "차량 공유 여행을 검색",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Community Transit",
+    "url": "https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints",
+    "description": "Transitland의 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Goibibo",
+    "url": "https://developer.goibibo.com/docs",
+    "description": "여행 검색 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "GraphHopper",
+    "url": "https://graphhopper.com/api/1/docs/",
+    "description": "턴 바이 턴(Turn-by-turn) 지침을 통한 A-to-B 라우팅",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Icelandic APIs",
+    "url": "http://docs.apis.is/",
+    "description": "아이슬란드와 관련된 서비스를 제공하는 오픈 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Indian Railways",
+    "url": "http://api.erail.in/",
+    "description": "인도 철도 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Izi",
+    "url": "http://api-docs.izi.travel/",
+    "description": "여행자를 위한 오디오 가이드",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Metro Lisboa",
+    "url": "http://app.metrolisboa.pt/status/getLinhas.php",
+    "description": "지하철 노선에서 지연",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Navitia",
+    "url": "https://api.navitia.io/",
+    "description": "운행 데이터로 멋진 것을 만들 수 있는 개방형 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "REFUGE Restrooms",
+    "url": "https://www.refugerestrooms.org/api/docs/#!/restrooms",
+    "description": "트랜스젠더, 인터섹스에게 안전한 화장실 정보를 제공합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Schiphol Airport",
+    "url": "https://developer.schiphol.nl/",
+    "description": "네덜란드 암스테르담 스키폴 공항",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "TransitLand",
+    "url": "https://transit.land/documentation/datastore/api-endpoints.html",
+    "description": "수송 집합",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Atlanta, US",
+    "url": "http://www.itsmarta.com/app-developer-resources.aspx",
+    "description": "Marta, 미국 아틀란타 교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Auckland, New Zealand",
+    "url": "https://api.at.govt.nz/",
+    "description": "오클랜드 교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Belgium",
+    "url": "https://hello.irail.be/api/",
+    "description": "벨기에의 교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Berlin, Germany",
+    "url": "https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md",
+    "description": "VBB, 독일 베를린 서드파티 교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Bordeaux, France",
+    "url": "https://opendata.bordeaux-metropole.fr/explore/",
+    "description": "프랑스의 보르도 메트로폴 대중교통 등",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Boston, US",
+    "url": "https://mbta.com/developers/v3-api",
+    "description": "MBTA, 미국 보스턴 교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Budapest, Hungary",
+    "url": "https://bkkfutar.docs.apiary.io",
+    "description": "부다페스트 대중교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Chicago, US",
+    "url": "http://www.transitchicago.com/developers/",
+    "description": "CTA, 미국 시카오 교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Czech Republic",
+    "url": "https://www.chaps.cz/eng/products/idos-internet",
+    "description": "체코 교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Denver, US",
+    "url": "http://www.rtd-denver.com/gtfs-developer-guide.shtml",
+    "description": "RTD, 미국 덴버 교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Finland",
+    "url": "https://digitransit.fi/en/developers/",
+    "description": "핀란드 교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Germany",
+    "url": "http://data.deutschebahn.com/dataset/api-fahrplan",
+    "description": "독일 철도 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Grenoble, France",
+    "url": "https://www.metromobilite.fr/pages/opendata/OpenDataApi.html",
+    "description": "그레노블 대중교통",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Honolulu, US",
+    "url": "http://hea.thebus.org/api_info.asp",
+    "description": "호놀룰루 교통 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for India",
+    "url": "https://data.gov.in/sector/transport",
+    "description": "인도 대중교통 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Lisbon, Portugal",
+    "url": "https://emel.city-platform.com/opendata/",
+    "description": "버스 노선, 주차 및 교통에 대한 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for London, England",
+    "url": "https://api.tfl.gov.uk",
+    "description": "영국 런던 교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Madrid, Spain",
+    "url": "http://opendata.emtmadrid.es/Servicios-web/BUS",
+    "description": "마드리드 버스 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Manchester, England",
+    "url": "https://developer.tfgm.com/",
+    "description": "맨체스터 교통 네트워크 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for New York City, US",
+    "url": "http://datamine.mta.info/",
+    "description": "미국 뉴욕 교통정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Norway",
+    "url": "http://reisapi.ruter.no/help",
+    "description": "노르웨이의 교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Ottawa, Canada",
+    "url": "http://www.octranspo.com/index.php/developers",
+    "description": "캐나다 오타와 버스 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Paris, France",
+    "url": "http://restratpws.azurewebsites.net/swagger/",
+    "description": "프랑스 파리의 간단한 실시간 대중교통 스케줄",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Paris, France",
+    "url": "http://data.ratp.fr/api/v1/console/datasets/1.0/search/",
+    "description": "RATP, 프랑스 파리 교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Philadelphia, US",
+    "url": "http://www3.septa.org/hackathon/",
+    "description": "SEPTA, 미국 필라델피아 교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Sao Paulo, Brazil",
+    "url": "http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx",
+    "description": "브라질 상파울로 교통",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Sweden",
+    "url": "https://www.trafiklab.se/api",
+    "description": "스웨덴 대중 교통 API",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Switzerland",
+    "url": "https://opentransportdata.swiss/en/",
+    "description": "스위스의 공식 대중 교통 오픈 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Switzerland",
+    "url": "https://transport.opendata.ch/",
+    "description": "스위스 대중교통 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for The Netherlands",
+    "url": "http://www.ns.nl/reisinformatie/ns-api",
+    "description": "NS, 네덜란드 기차 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for The Netherlands",
+    "url": "https://github.com/skywave/KV78Turbo-OVAPI/wiki",
+    "description": "OVAPI, 네덜란드 전국 대중교통",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Toronto, Canada",
+    "url": "https://myttc.ca/developers",
+    "description": "캐나다 토론토 교통",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for United States",
+    "url": "http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf",
+    "description": "NextBus의 미국 버스 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Vancouver, Canada",
+    "url": "https://developer.translink.ca/",
+    "description": "TransLink 캐나다 벤쿠버 교통 API",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Victoria, AU",
+    "url": "https://www.ptv.vic.gov.au/about-ptv/ptv-data-and-reports/digital-products/ptv-timetable-api/",
+    "description": "PTV, 호주 빅토리아주 교통 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Transport for Washington, US",
+    "url": "https://developer.wmata.com/",
+    "description": "미국 워싱턴 지하철 API",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Uber",
+    "url": "https://developer.uber.com/products",
+    "description": "우버 승차 요청 및 가격 예측",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "교통"
+  },
+  {
+    "name": "WhereIsMyTransport",
+    "url": "https://developer.whereismytransport.com/",
+    "description": "신흥 도시의 대중 교통 데이터를 위한 플랫폼",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "교통"
+  },
+  {
+    "name": "Alpha Vantage",
+    "url": "https://www.alphavantage.co/",
+    "description": "실시간 및 과거 주식 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "금융"
+  },
+  {
+    "name": "Barchart OnDemand",
+    "url": "https://www.barchartondemand.com/free",
+    "description": "주식, 선물 및 외환 시장 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "금융"
+  },
+  {
+    "name": "Consumer Financial Protection Bureau",
+    "url": "https://data.consumerfinance.gov/resource/jhzv-w97w.json",
+    "description": "금융 서비스 소비자 불만 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "금융"
+  },
+  {
+    "name": "Financial Modeling Prep",
+    "url": "https://financialmodelingprep.com/",
+    "description": "주식 정보 및 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "금융"
+  },
+  {
+    "name": "IEX",
+    "url": "https://iextrading.com/developer/",
+    "description": "실시간 주식 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "금융"
+  },
+  {
+    "name": "IEX Cloud",
+    "url": "https://iexcloud.io/",
+    "description": "실시간 & 과거 주식 및 시장 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "금융"
+  },
+  {
+    "name": "IG",
+    "url": "https://labs.ig.com/gettingstarted",
+    "description": "분산 투자와 CFD 마켓 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "금융"
+  },
+  {
+    "name": "Plaid",
+    "url": "https://plaid.com/",
+    "description": "사용자의 은행 계좌에 연결하여 거래 데이터에 접근합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "금융"
+  },
+  {
+    "name": "Razorpay IFSC",
+    "url": "https://ifsc.razorpay.com/",
+    "description": "인도 금융 시스템 코드(은행 지점 코드)",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "금융"
+  },
+  {
+    "name": "RoutingNumbers.info",
+    "url": "https://www.routingnumbers.info/api/index.html",
+    "description": "ACH/NACHA 은행 라우팅 번호",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "금융"
+  },
+  {
+    "name": "Tradier",
+    "url": "https://developer.tradier.com",
+    "description": "미국 주식/옵션 시장 데이터(지연, 현재, 과거)",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "금융"
+  },
+  {
+    "name": "VAT Rates",
+    "url": "https://jsonvat.com/",
+    "description": "EU 국가들의 모든 부가가치세 비율의 집합",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "금융"
+  },
+  {
+    "name": "YNAB",
+    "url": "https://api.youneedabudget.com/",
+    "description": "예산짜기 & 계획하기",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "금융"
+  },
+  {
+    "name": "7Timer!",
+    "url": "http://www.7timer.info/doc.php?lang=en",
+    "description": "날씨 특히 천체날씨",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "날씨"
+  },
+  {
+    "name": "APIXU",
+    "url": "https://www.apixu.com/doc/request.aspx",
+    "description": "날씨",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "날씨"
+  },
+  {
+    "name": "Dark Sky",
+    "url": "https://darksky.net/dev/",
+    "description": "날씨",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "날씨"
+  },
+  {
+    "name": "MetaWeather",
+    "url": "https://www.metaweather.com/api/",
+    "description": "날씨",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "날씨"
+  },
+  {
+    "name": "Meteorologisk Institutt",
+    "url": "https://api.met.no/weatherapi/documentation",
+    "description": "날씨와 기후 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "날씨"
+  },
+  {
+    "name": "NOAA Climate Data",
+    "url": "https://www.ncdc.noaa.gov/cdo-web/",
+    "description": "날씨와 기후 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "날씨"
+  },
+  {
+    "name": "ODWeather",
+    "url": "http://api.oceandrivers.com/static/docs.html",
+    "description": "날씨와 날씨 웹캠",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "날씨"
+  },
+  {
+    "name": "OpenUV",
+    "url": "https://www.openuv.io",
+    "description": "실시간 UV 지수 예보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "날씨"
+  },
+  {
+    "name": "OpenWeatherMap",
+    "url": "http://openweathermap.org/api",
+    "description": "날씨",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "날씨"
+  },
+  {
+    "name": "Storm Glass",
+    "url": "https://stormglass.io/",
+    "description": "다양한 출처의 국제 해양 날씨",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "날씨"
+  },
+  {
+    "name": "Weatherbit",
+    "url": "https://www.weatherbit.io/api",
+    "description": "날씨",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "날씨"
+  },
+  {
+    "name": "Yahoo! Weather",
+    "url": "https://developer.yahoo.com/weather/",
+    "description": "날씨",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "날씨"
+  },
+  {
+    "name": "Associated Press",
+    "url": "https://developer.ap.org/",
+    "description": "AP 통신에서 뉴스 및 메타데이터를 검색합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "뉴스"
+  },
+  {
+    "name": "Chronicling America",
+    "url": "http://chroniclingamerica.loc.gov/about/api/",
+    "description": "의회 도서관에 있는 수백만 페이지의 역사적인 미국 신문에 접근할 수 있도록 합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "뉴스"
+  },
+  {
+    "name": "Currents",
+    "url": "https://currentsapi.services/",
+    "description": "다양한 뉴스 출처, 블로그 및 포럼에 게시된 최신 뉴스",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "뉴스"
+  },
+  {
+    "name": "Feedbin",
+    "url": "https://github.com/feedbin/feedbin-api",
+    "description": "RSS 독자",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "뉴스"
+  },
+  {
+    "name": "Feedster",
+    "url": "https://api.feedster.me/v1/docs/",
+    "description": "검색 가능하고 분류된 RSS 피드 모음",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "뉴스"
+  },
+  {
+    "name": "New York Times",
+    "url": "https://developer.nytimes.com/",
+    "description": "뉴욕타임즈 뉴스",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "뉴스"
+  },
+  {
+    "name": "News",
+    "url": "https://newsapi.org/",
+    "description": "현재 다양한 뉴스 출처와 블로그에 게시된 헤드라인",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "뉴스"
+  },
+  {
+    "name": "NPR One",
+    "url": "http://dev.npr.org/api/",
+    "description": "NPR의 맞춤형 뉴스 청취 경험",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "뉴스"
+  },
+  {
+    "name": "The Guardian",
+    "url": "http://open-platform.theguardian.com/",
+    "description": "태그 및 섹션으로 분류된 가디언이 작성하는 모든 컨텐츠에 접근합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "뉴스"
+  },
+  {
+    "name": "The Old Reader",
+    "url": "https://github.com/theoldreader/api",
+    "description": "RSS 독자",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "뉴스"
+  },
+  {
+    "name": "Calendar Index",
+    "url": "https://www.calendarindex.com/",
+    "description": "전세계의 공휴일과 평일",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "달력"
+  },
+  {
+    "name": "Church Calendar",
+    "url": "http://calapi.inadiutorium.cz/",
+    "description": "카톨릭 전례 달력",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "달력"
+  },
+  {
+    "name": "Czech Namedays Calendar",
+    "url": "http://svatky.adresa.info/",
+    "description": "이름을 확인하고 영명 축일 날을 얻습니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "달력"
+  },
+  {
+    "name": "Google Calendar",
+    "url": "https://developers.google.com/google-apps/calendar/",
+    "description": "구글 달력의 일정을 보여주고, 생성하며 수정합니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "달력"
+  },
+  {
+    "name": "Hebrew Calendar",
+    "url": "https://www.hebcal.com/home/developer-apis",
+    "description": "그레고리안력과 히브리력을 전환하고, 안식일과 공휴일 등을 가져옵니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "달력"
+  },
+  {
+    "name": "Holidays",
+    "url": "https://holidayapi.com/",
+    "description": "공휴일과 관련된 역사적 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "달력"
+  },
+  {
+    "name": "LectServe",
+    "url": "http://www.lectserve.com",
+    "description": "개신교 전례 달력",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "달력"
+  },
+  {
+    "name": "Nager.Date",
+    "url": "https://date.nager.at",
+    "description": "90개가 넘는 나라를 위한 공공의 공휴일",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "달력"
+  },
+  {
+    "name": "Namedays Calendar",
+    "url": "https://api.abalin.net/",
+    "description": "다양한 나라를 위한 영명 축일을 제공합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "달력"
+  },
+  {
+    "name": "Non-Working Days",
+    "url": "https://github.com/gadael/icsdb",
+    "description": "평일이 아닌 날을 위한 ICS 파일 데이터베이스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "달력"
+  },
+  {
+    "name": "Russian Calendar",
+    "url": "https://github.com/egno/work-calendar",
+    "description": "해당 날짜가 러시아 공휴일인지 아닌 지 확인합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "달력"
+  },
+  {
+    "name": "Cloudmersive Validate",
+    "url": "https://cloudmersive.com/validate-api",
+    "description": "이메일 주소, 핸드폰 번호, VAT 번호와 도메인 이름을 검증합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "데이터 검증"
+  },
+  {
+    "name": "languagelayer",
+    "url": "https://languagelayer.com",
+    "description": "언어 감지",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "데이터 검증"
+  },
+  {
+    "name": "Lob.com",
+    "url": "https://lob.com/",
+    "description": "미국 주소 확인",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "데이터 검증"
+  },
+  {
+    "name": "mailboxlayer",
+    "url": "https://mailboxlayer.com",
+    "description": "이메일 주소 검증",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "데이터 검증"
+  },
+  {
+    "name": "NumValidate",
+    "url": "https://numvalidate.com",
+    "description": "오픈소스 핸드폰 번호 검증",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "데이터 검증"
+  },
+  {
+    "name": "numverify",
+    "url": "https://numverify.com",
+    "description": "핸드폰 번호 검증",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "데이터 검증"
+  },
+  {
+    "name": "PurgoMalum",
+    "url": "http://www.purgomalum.com",
+    "description": "욕설과 외설성에 대한 내용 검증기",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "데이터 검증"
+  },
+  {
+    "name": "US Autocomplete",
+    "url": "https://smartystreets.com/docs/cloud/us-autocomplete-api",
+    "description": "실시간 주소 제안을 이용해서 주소 데이터를 빠르게 입력합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "데이터 검증"
+  },
+  {
+    "name": "US Extract",
+    "url": "https://smartystreets.com/products/apis/us-extract-api",
+    "description": "전자 메일을 포함한 모든 텍스트에서 우편 주소를 추출합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "데이터 검증"
+  },
+  {
+    "name": "US Street Address",
+    "url": "https://smartystreets.com/docs/cloud/us-street-api",
+    "description": "미국 우편 주소를 확인하고 데이터를 추가합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "데이터 검증"
+  },
+  {
+    "name": "vatlayer",
+    "url": "https://vatlayer.com",
+    "description": "VAT 번호를 검증",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "데이터 검증"
+  },
+  {
+    "name": "Cat Facts",
+    "url": "https://alexwohlbruck.github.io/cat-facts/",
+    "description": "고양이에 대한 사실",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "동물"
+  },
+  {
+    "name": "Cats",
+    "url": "https://docs.thecatapi.com/",
+    "description": "텀블러에서 가져온 고양이 사진",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "동물"
+  },
+  {
+    "name": "Dogs",
+    "url": "https://dog.ceo/dog-api/",
+    "description": "스탠포드의 개 데이터셋에 기반함",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "동물"
+  },
+  {
+    "name": "HTTPCat",
+    "url": "https://http.cat/",
+    "description": "모든 HTTP 상태를 위한 고양이",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "동물"
+  },
+  {
+    "name": "IUCN",
+    "url": "http://apiv3.iucnredlist.org/api/v3/docs",
+    "description": "IUCN 적색목록의 위협종",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "동물"
+  },
+  {
+    "name": "Movebank",
+    "url": "https://github.com/movebank/movebank-api-doc",
+    "description": "동물의 움직임과 이주 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "동물"
+  },
+  {
+    "name": "Petfinder",
+    "url": "https://www.petfinder.com/developers/v2/docs/",
+    "description": "입양",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "동물"
+  },
+  {
+    "name": "PlaceGOAT",
+    "url": "https://placegoat.com/",
+    "description": "플레이스 홀더 염소 이미지",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "동물"
+  },
+  {
+    "name": "RandomCat",
+    "url": "https://aws.random.cat/meow",
+    "description": "무작위 고양이 사진",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "동물"
+  },
+  {
+    "name": "RandomDog",
+    "url": "https://random.dog/woof.json",
+    "description": "무작위 개 사진",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "동물"
+  },
+  {
+    "name": "RandomFox",
+    "url": "https://randomfox.ca/floof/",
+    "description": "무작위 여우 사진",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "동물"
+  },
+  {
+    "name": "RescueGroups",
+    "url": "https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home",
+    "description": "입양",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "동물"
+  },
+  {
+    "name": "Shibe.Online",
+    "url": "http://shibe.online/",
+    "description": "무작위 시바견, 고양이 또는 새 사진",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "동물"
+  },
+  {
+    "name": "Clarifai",
+    "url": "https://developer.clarifai.com/",
+    "description": "컴퓨터 비전",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "머신러닝"
+  },
+  {
+    "name": "Cloudmersive",
+    "url": "https://www.cloudmersive.com/image-recognition-and-processing-api",
+    "description": "이미지 캡션, 얼굴 인식, NSFW 분류",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "머신러닝"
+  },
+  {
+    "name": "Deepcode",
+    "url": "https://www.deepcode.ai/docs/Overview%252FOverview",
+    "description": "코드 리뷰를 위한 AI",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "머신러닝"
+  },
+  {
+    "name": "Dialogflow",
+    "url": "https://dialogflow.com",
+    "description": "자연어 처리",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "머신러닝"
+  },
+  {
+    "name": "Keen IO",
+    "url": "https://keen.io/",
+    "description": "데이터 분석",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "머신러닝"
+  },
+  {
+    "name": "Time Door",
+    "url": "https://timedoor.io",
+    "description": "시계열 분석 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "머신러닝"
+  },
+  {
+    "name": "Unplugg",
+    "url": "https://unplu.gg/test_api.html",
+    "description": "시계열 데이터 예측 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "머신러닝"
+  },
+  {
+    "name": "Wit.ai",
+    "url": "https://wit.ai/",
+    "description": "자연어 처리",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "머신러닝"
+  },
+  {
+    "name": "Cloudmersive Document and Data Conversion",
+    "url": "https://cloudmersive.com/convert-api",
+    "description": "HTML나 URL을 PDF 또는 PNG로 변환하거나, 공식 문서를 PDF 또는 이미지로 변환",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "문서 & 생산성"
+  },
+  {
+    "name": "File.io",
+    "url": "https://www.file.io",
+    "description": "파일 공유",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "문서 & 생산성"
+  },
+  {
+    "name": "Mercury",
+    "url": "https://mercury.postlight.com/web-parser/",
+    "description": "웹 파서",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "문서 & 생산성"
+  },
+  {
+    "name": "pdflayer",
+    "url": "https://pdflayer.com",
+    "description": "HTML 또는 URL을 PDF로 변환합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "문서 & 생산성"
+  },
+  {
+    "name": "Pocket",
+    "url": "https://getpocket.com/developer/",
+    "description": "북마킹 서비스",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "문서 & 생산성"
+  },
+  {
+    "name": "PrexView",
+    "url": "https://prexview.com",
+    "description": "XML이나 JSON로 부터 얻은 데이터를 PDF, HTML 또는 이미지로 바꿔줍니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "문서 & 생산성"
+  },
+  {
+    "name": "Restpack",
+    "url": "https://restpack.io/",
+    "description": "스크린샷, HTML을 PDF로 변환, 내용 추출 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "문서 & 생산성"
+  },
+  {
+    "name": "Todoist",
+    "url": "https://developer.todoist.com",
+    "description": "할 일 목록",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "문서 & 생산성"
+  },
+  {
+    "name": "Vector Express",
+    "url": "http://vector.express",
+    "description": "무료 벡터 파일 변환 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": true,
+    "category": "문서 & 생산성"
+  },
+  {
+    "name": "WakaTime",
+    "url": "https://wakatime.com/developers",
+    "description": "개발자를 위한 자동화된 시간 추적 리더보드",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "문서 & 생산성"
+  },
+  {
+    "name": "Wunderlist",
+    "url": "https://developer.wunderlist.com/documentation",
+    "description": "할 일 목록",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "문서 & 생산성"
+  },
+  {
+    "name": "Censys.io",
+    "url": "https://censys.io/api",
+    "description": "인터넷에 연결된 호스트 및 장치를 검색합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "보안"
+  },
+  {
+    "name": "CRXcavator",
+    "url": "https://crxcavator.io/apidocs",
+    "description": "크롬 확장 프로그램 위험 점수",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "보안"
+  },
+  {
+    "name": "FilterLists",
+    "url": "https://filterlists.com/api",
+    "description": "애드블록 및 방화벽에 대한 필터 목록",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "보안"
+  },
+  {
+    "name": "HaveIBeenPwned",
+    "url": "https://haveibeenpwned.com/API/v3",
+    "description": "이전에 데이터 침해에 노출된 암호",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "보안"
+  },
+  {
+    "name": "National Vulnerability Database",
+    "url": "https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog",
+    "description": "미국 국가 취약성 데이터베이스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "보안"
+  },
+  {
+    "name": "SecurityTrails",
+    "url": "https://securitytrails.com/corp/apidocs",
+    "description": "현재 및 과거 WHOIS 및 DNS 레코드같은 도메인 및 IP 관련 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "보안"
+  },
+  {
+    "name": "Shodan",
+    "url": "https://developer.shodan.io/",
+    "description": "인터넷에 연결된 장치를 위한 검색 엔진",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "보안"
+  },
+  {
+    "name": "UK Police",
+    "url": "https://data.police.uk/docs/",
+    "description": "영국 경찰 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "보안"
+  },
+  {
+    "name": "An API of Ice And Fire",
+    "url": "https://anapioficeandfire.com/",
+    "description": "왕좌의 게임 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "Breaking Bad",
+    "url": "https://breakingbadapi.com/documentation",
+    "description": "브레이킹 배드 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "Breaking Bad Quotes",
+    "url": "https://github.com/shevabam/breaking-bad-quotes",
+    "description": "브레이킹 배드 대사",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "Czech Television",
+    "url": "http://www.ceskatelevize.cz/xml/tv-program/",
+    "description": "체코 TV의 TV 프로그램",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "Dailymotion",
+    "url": "https://developer.dailymotion.com/",
+    "description": "데일리모션 개발자 API",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "Harry Potter",
+    "url": "https://www.potterapi.com/",
+    "description": "해라포터 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "비디오"
+  },
+  {
+    "name": "Open Movie Database",
+    "url": "http://www.omdbapi.com/",
+    "description": "영화 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "Ron Swanson Quotes",
+    "url": "https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api",
+    "description": "TV",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "STAPI",
+    "url": "http://stapi.co",
+    "description": "스타트랙에 대한 모든 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "SWAPI",
+    "url": "https://swapi.co",
+    "description": "스타워즈 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "The Lord of the Rings",
+    "url": "https://the-one-api.herokuapp.com/",
+    "description": "반지의 제왕 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "TMDb",
+    "url": "https://www.themoviedb.org/documentation/api",
+    "description": "커뮤니티 기반의 영화 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "Trakt",
+    "url": "https://trakt.tv/b/api-docs",
+    "description": "영화와 TV 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "비디오"
+  },
+  {
+    "name": "TVDB",
+    "url": "https://api.thetvdb.com/swagger",
+    "description": "TV 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "TVMaze",
+    "url": "http://www.tvmaze.com/api",
+    "description": "TV쇼 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "Utelly",
+    "url": "https://market.mashape.com/utelly/utelly",
+    "description": "TV 프로그램 또는 영화가 시청가능한 곳을 확인합니다.",
+    "auth": "X-Mashape-Key",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "Vimeo",
+    "url": "https://developer.vimeo.com/",
+    "description": "비메오 개발자 API",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://developers.google.com/youtube/",
+    "description": "사이트 및 앱에 YouTube 기능을 추가합니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비디오"
+  },
+  {
+    "name": "Charity Search",
+    "url": "http://charityapi.orghunter.com/",
+    "description": "비영리 자선단체 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "비즈니스"
+  },
+  {
+    "name": "Clearbit Logo",
+    "url": "https://clearbit.com/docs#logo-api",
+    "description": "회사 로고를 찾고, 당신의 프로젝트에 넣어보세요.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비즈니스"
+  },
+  {
+    "name": "Domainsdb.info",
+    "url": "https://domainsdb.info/",
+    "description": "등록된 도메인 이름 검색",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "비즈니스"
+  },
+  {
+    "name": "Freelancer",
+    "url": "https://developers.freelancer.com",
+    "description": "일을 받을 수 있는 프리랜서 고용",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비즈니스"
+  },
+  {
+    "name": "Gmail",
+    "url": "https://developers.google.com/gmail/api/",
+    "description": "사용자의 메일을 위한 유연하고 REST스러운 접근",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비즈니스"
+  },
+  {
+    "name": "Google Analytics",
+    "url": "https://developers.google.com/analytics/",
+    "description": "실제 사용자에게 닿기 위한 당신의 데이터를 모으고, 확인하고 분석하세요",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비즈니스"
+  },
+  {
+    "name": "MailboxValidator",
+    "url": "https://www.mailboxvalidator.com/api-single-validation",
+    "description": "전달가능성을 높이기위해 이메일 주소를 검증하세요",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비즈니스"
+  },
+  {
+    "name": "mailgun",
+    "url": "https://www.mailgun.com/",
+    "description": "이메일 Service",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비즈니스"
+  },
+  {
+    "name": "markerapi",
+    "url": "http://www.markerapi.com/",
+    "description": "트레이드마크 Search",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "비즈니스"
+  },
+  {
+    "name": "Ticksel",
+    "url": "https://ticksel.com",
+    "description": "사람을 위해 만들어 진 친근한 웹사이트 분석",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "비즈니스"
+  },
+  {
+    "name": "Trello",
+    "url": "https://developers.trello.com/",
+    "description": "당신의 프로젝트를 조정하고 우선순위를 정하는 걸 도와주는 게시판, 목록과 카드",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "비즈니스"
+  },
+  {
+    "name": "FraudLabs Pro",
+    "url": "https://www.fraudlabspro.com/developer/api/screen-order",
+    "description": "부정 행위를 탐지하는 AI를 사용하여 주문 정보를 차단합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사기 예방"
+  },
+  {
+    "name": "Whitepages Pro",
+    "url": "https://pro.whitepages.com/developer/documentation/identity-check-api/",
+    "description": "전화, 주소, 이메일 및 IP를 통해 글로벌 ID를 확인합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사기 예방"
+  },
+  {
+    "name": "Whitepages Pro",
+    "url": "https://pro.whitepages.com/developer/documentation/phone-reputation-api/",
+    "description": "스팸 전화를 감지하기 위한 전화번호의 평판도",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사기 예방"
+  },
+  {
+    "name": "Whitepages Pro",
+    "url": "https://pro.whitepages.com/developer/documentation/reverse-phone-api/",
+    "description": "전화 번호를 기준으로 사용자 이름, 주소, 인구 통계를 가져옵니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사기 예방"
+  },
+  {
+    "name": "Whitepages Pro",
+    "url": "https://pro.whitepages.com/developer/documentation/phone-intelligence-api/",
+    "description": "전화 번호 유효성 검사",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사기 예방"
+  },
+  {
+    "name": "Whitepages Pro",
+    "url": "https://pro.whitepages.com/developer/documentation/reverse-address-api/",
+    "description": "정규화된 물리적 주소, 거주자, 주소 유형 및 유효성 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사기 예방"
+  },
+  {
+    "name": "Lingua Robot",
+    "url": "https://www.linguarobot.io",
+    "description": "단어의 정의, 발음, 동의어, 반음어 등",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "사전"
+  },
+  {
+    "name": "Merriam-Webster",
+    "url": "https://dictionaryapi.com/",
+    "description": "사전 및 동의어 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사전"
+  },
+  {
+    "name": "OwlBot",
+    "url": "https://owlbot.info/",
+    "description": "단어의 정의를 예문, 사진과 함께 보여줍니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "사전"
+  },
+  {
+    "name": "Oxford",
+    "url": "https://developer.oxforddictionaries.com/",
+    "description": "사전 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사전"
+  },
+  {
+    "name": "Wordnik",
+    "url": "http://developer.wordnik.com",
+    "description": "사전 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "사전"
+  },
+  {
+    "name": "Words",
+    "url": "https://www.wordsapi.com/",
+    "description": "150,000개가 넘는 단어의 정의와 동의어",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사전"
+  },
+  {
+    "name": "Flickr",
+    "url": "https://www.flickr.com/services/api/",
+    "description": "플리커 서비스",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사진"
+  },
+  {
+    "name": "Getty Images",
+    "url": "http://developers.gettyimages.com/en/",
+    "description": "세계에서 가장 강력한 이미지를 사용하여 애플리케이션을 만듭니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사진"
+  },
+  {
+    "name": "Gfycat",
+    "url": "https://developers.gfycat.com/api/",
+    "description": "짧은 GIF",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사진"
+  },
+  {
+    "name": "Giphy",
+    "url": "https://developers.giphy.com/docs/",
+    "description": "모든 GIF를 얻는다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사진"
+  },
+  {
+    "name": "Gyazo",
+    "url": "https://gyazo.com/api/docs",
+    "description": "이미지 업로드",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사진"
+  },
+  {
+    "name": "Imgur",
+    "url": "https://apidocs.imgur.com/",
+    "description": "이미지",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사진"
+  },
+  {
+    "name": "Lorem Picsum",
+    "url": "https://picsum.photos/",
+    "description": "Unsplash 이미지",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "사진"
+  },
+  {
+    "name": "Pexels",
+    "url": "https://www.pexels.com/api/",
+    "description": "무료 사진 및 비디오",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "사진"
+  },
+  {
+    "name": "Pixabay",
+    "url": "https://pixabay.com/sk/service/about/api/",
+    "description": "사진",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사진"
+  },
+  {
+    "name": "Pixhost",
+    "url": "https://pixhost.org/api/index.html",
+    "description": "이미지, 사진, 갤러리 업로드",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "사진"
+  },
+  {
+    "name": "PlaceKitten",
+    "url": "https://placekitten.com/",
+    "description": "크기 조정 가능한 고양이 플레이스홀더 이미지",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "사진"
+  },
+  {
+    "name": "ScreenShotLayer",
+    "url": "https://screenshotlayer.com",
+    "description": "해당 URL을 Image로 바꿔줍니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "사진"
+  },
+  {
+    "name": "Unsplash",
+    "url": "https://unsplash.com/developers",
+    "description": "사진",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사진"
+  },
+  {
+    "name": "Wallhaven",
+    "url": "https://wallhaven.cc/help/api",
+    "description": "월페이퍼",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "사진"
+  },
+  {
+    "name": "Buffer",
+    "url": "https://buffer.com/developers/api",
+    "description": "버퍼에서 보류 중이거나 전송된 업데이트에 접근합니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Cisco Spark",
+    "url": "https://developer.ciscospark.com",
+    "description": "팀 공동 작업 소프트웨어",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Discord",
+    "url": "https://discordapp.com/developers/docs/intro",
+    "description": "Discord용 봇를 만들고 Discord를 외부 플랫폼에 통합합니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Disqus",
+    "url": "https://disqus.com/api/docs/auth/",
+    "description": "Disqus 데이터와 통신합니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Facebook",
+    "url": "https://developers.facebook.com/",
+    "description": "페이스북 로그인, 페이스북 공유, 소셜 플러그인, 분석 등",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Foursquare",
+    "url": "https://developer.foursquare.com/",
+    "description": "포스퀘어 사용자 및 장소(지오로케이션 기반 체크인, 사진, 팁, 이벤트 등)와 상호 작용합니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Fuck Off as a Service",
+    "url": "https://www.foaas.com",
+    "description": "누군가에게 꺼져달라고 요청합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Full Contact",
+    "url": "https://www.fullcontact.com/developer/docs/",
+    "description": "소셜 미디어 프로필 및 연락처 정보를 가져옵니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "HackerNews",
+    "url": "https://github.com/HackerNews/API",
+    "description": "컴퓨터 공학와 기업가 정신을 위한 소셜 뉴스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/developer/",
+    "description": "인스타그램 로그인, 인스타그램에 공유, 소셜 플러그인 등",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://developer.linkedin.com/docs/rest-api",
+    "description": "모든 디지털 통합의 기반, 링크드인",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Meetup.com",
+    "url": "https://www.meetup.com/meetup_api/",
+    "description": "Meetup.com의 모임 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Mixer",
+    "url": "https://dev.mixer.com/",
+    "description": "게임 스트리밍 API",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "MySocialApp",
+    "url": "https://mysocialapp.io",
+    "description": "모든 앱에 원활한 소셜 네트워킹 기능, API, SDK를 제공합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Open Collective",
+    "url": "https://docs.opencollective.com/help/developers/api",
+    "description": "Open Collective 데이터를 가져옵니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Pinterest",
+    "url": "https://developers.pinterest.com/",
+    "description": "세계의 아이디어 목록",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "PWRTelegram bot",
+    "url": "https://pwrtelegram.xyz",
+    "description": "텔레그램 봇 API 업그레이드 버전",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Reddit",
+    "url": "https://www.reddit.com/dev/api",
+    "description": "인터넷의 홈페이지",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "SharedCount",
+    "url": "http://docs.sharedcount.com/",
+    "description": "특정 URL의 소셜 미디어 좋아요와 공유 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Slack",
+    "url": "https://api.slack.com/",
+    "description": "팀 메시지 교환 시스템",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Telegram Bot",
+    "url": "https://core.telegram.org/bots/api",
+    "description": "봇을 위한 MTProto API의 HTTP 버전을 단순화합니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Telegram MTProto",
+    "url": "https://core.telegram.org/api#getting-started",
+    "description": "텔레그램 데이터를 읽고 씁니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Trash Nothing",
+    "url": "https://trashnothing.com/developer",
+    "description": "매일 수천 개의 무료 아이템이 올라오는 무료 자전거 커뮤니티입니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "소셜"
+  },
+  {
+    "name": "Tumblr",
+    "url": "https://www.tumblr.com/docs/en/api/v2",
+    "description": "텀블러 데이터를 읽고 씁니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Twitch",
+    "url": "https://dev.twitch.tv/docs",
+    "description": "게임 스트리밍 API",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Twitter",
+    "url": "https://developer.twitter.com/en/docs",
+    "description": "트위터 데이터를 읽고 씁니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "vk",
+    "url": "https://vk.com/dev/sites",
+    "description": "vk 데이터를 읽고 씁니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "소셜"
+  },
+  {
+    "name": "Best Buy",
+    "url": "https://bestbuyapis.github.io/api-documentation/#overview",
+    "description": "제품, 구매 옵션, 범주, 추천, 상점 및 커머스",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "쇼핑"
+  },
+  {
+    "name": "Bratabase",
+    "url": "https://developers.bratabase.com/",
+    "description": "다양한 종류의 브라 사이즈 데이터베이스",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "쇼핑"
+  },
+  {
+    "name": "eBay",
+    "url": "https://go.developer.ebay.com/",
+    "description": "이베이를 통해 물건을 사고 팝니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "쇼핑"
+  },
+  {
+    "name": "Wal-Mart",
+    "url": "https://developer.walmartlabs.com/docs",
+    "description": "월마트의 물건 가격과 다양한 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "쇼핑"
+  },
+  {
+    "name": "Wegmans",
+    "url": "https://dev.wegmans.io",
+    "description": "웨그먼스 푸드마켓",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "쇼핑"
+  },
+  {
+    "name": "balldontlie",
+    "url": "https://balldontlie.io",
+    "description": "Balldontlie는 NBA 통계 데이터에 접근할 수 있도록 합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "BikeWise",
+    "url": "https://www.bikewise.org/documentation/api_v2",
+    "description": "BikeWise는 자전거 충돌, 위험 요소 및 도난에 대해 배우고 보고하는 곳입니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "Canadian Football League (CFL)",
+    "url": "http://api.cfl.ca/",
+    "description": "CFL에 대한 실시간 리그, 팀 및 플레이어 통계를 제공하는 공식 JSON API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "Cartola FC",
+    "url": "https://github.com/wgenial/cartrolandofc",
+    "description": "Cartola FC API는 당신의 팀의 부분 포인트 정보를 제공합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "City Bikes",
+    "url": "http://api.citybik.es/v2/",
+    "description": "전세계의 City Bikes",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "Cricket Live Scores",
+    "url": "https://market.mashape.com/dev132/cricket-live-scores",
+    "description": "실시간 크리켓 스코어",
+    "auth": "X-Mashape-Key",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "Ergast F1",
+    "url": "http://ergast.com/mrd/",
+    "description": "1950년 세계 챔피언십의 시작부터 지금까지의 F1 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "Fitbit",
+    "url": "https://dev.fitbit.com/",
+    "description": "핏빗 정보",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "Football (Soccer) Videos",
+    "url": "https://www.scorebat.com/video-api/",
+    "description": "프리미어 리그, 분데스리가, 세리에 A 등의 골과 하이라이트를 위한 내장 코드",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "Football Prediction",
+    "url": "https://boggio-analytics.com/fp-api/",
+    "description": "다가오는 축구 경기, 승산, 결과 및 통계 예측",
+    "auth": "X-Mashape-Key",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "Football-Data.org",
+    "url": "http://api.football-data.org/index",
+    "description": "축구 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "JCDecaux Bike",
+    "url": "https://developer.jcdecaux.com/",
+    "description": "JCDecaux의 셀프 서비스 자전거",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "NBA Stats",
+    "url": "https://any-api.com/nba_com/nba_com/docs/API_Description",
+    "description": "현재 및 과거 NBA 통계",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "NFL Arrests",
+    "url": "http://nflarrest.com/api/",
+    "description": "NFL 어레스트의 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "NHL Records and Stats",
+    "url": "https://gitlab.com/dword4/nhlapi",
+    "description": "NHL 기록 데이터 및 통계",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "Pro Motocross",
+    "url": "http://promotocrossapi.com",
+    "description": "출발 관문에 있는 모든 레이서의 RESTful AMA 프로 모토크로스 랩타임",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "Strava",
+    "url": "https://strava.github.io/api/",
+    "description": "운동선수, 활동 등과 연결합니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "SuredBits",
+    "url": "https://suredbits.com/api/",
+    "description": "팀, 플레이어, 게임, 점수 및 통계를 포함한 스포츠 데이터를 검색합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "TheSportsDB",
+    "url": "https://www.thesportsdb.com/api.php",
+    "description": "크라우드 소스를 통한 스포츠 자료 및 아트워크",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "Wger",
+    "url": "https://wger.de/en/software/api",
+    "description": "운동, 근육 또는 장비에 대한 운동 관리 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "스포츠 & 피트니스"
+  },
+  {
+    "name": "AbuseIPDB",
+    "url": "https://docs.abuseipdb.com/",
+    "description": "IP/도메인/URL 평가",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "안티멀웨어"
+  },
+  {
+    "name": "AlienVault Open Threat Exchange (OTX)",
+    "url": "https://otx.alienvault.com/api/",
+    "description": "IP/도메인/URL 평가",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "안티멀웨어"
+  },
+  {
+    "name": "Google Safe Browsing",
+    "url": "https://developers.google.com/safe-browsing/",
+    "description": "구글 링크/도메인 플래깅",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "안티멀웨어"
+  },
+  {
+    "name": "Metacert",
+    "url": "https://metacert.com/",
+    "description": "메타서트 링크 플래깅",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "안티멀웨어"
+  },
+  {
+    "name": "VirusTotal",
+    "url": "https://www.virustotal.com/en/documentation/public-api/",
+    "description": "바이러스토탈 파일/URL 분석",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "안티멀웨어"
+  },
+  {
+    "name": "Web Of Trust (WOT)",
+    "url": "https://www.mywot.com/en/API",
+    "description": "웹사이트 평가",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "안티멀웨어"
+  },
+  {
+    "name": "Binance",
+    "url": "https://github.com/binance-exchange/binance-official-api-docs",
+    "description": "중국 암호화폐 거래소",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "BitcoinAverage",
+    "url": "https://apiv2.bitcoinaverage.com/",
+    "description": "블록체인 산업의 디지털 가격 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "BitcoinCharts",
+    "url": "https://bitcoincharts.com/about/exchanges/",
+    "description": "비트코인 네트워크와 연관된 금융과 기술적 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Bitfinex",
+    "url": "https://docs.bitfinex.com/docs/getting-started",
+    "description": "암호화폐 거래 플랫폼",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Bitmex",
+    "url": "https://www.bitmex.com/app/apiOverview",
+    "description": "홍콩 실시간 암호화폐 파생상품 거래 플랫폼",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Bittrex",
+    "url": "https://bittrex.com/Home/Api",
+    "description": "차세대 암호화폐 거래 플랫폼",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Block",
+    "url": "https://www.block.io/docs/basic",
+    "description": "비트코인 지불, 지갑 & 트랜젝션 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Blockchain",
+    "url": "https://www.blockchain.info/api",
+    "description": "비트코인 지불, 지갑 & 트랜젝션 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "CoinAPI",
+    "url": "https://docs.coinapi.io/",
+    "description": "단일 API로 통합된 모든 암호화폐 거래",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Coinbase",
+    "url": "https://developers.coinbase.com",
+    "description": "비트코인, 비트코인 캐쉬, 라이트코인과 이더리움 가격",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Coinbase Pro",
+    "url": "https://docs.pro.coinbase.com/#api",
+    "description": "암호화폐 거래 플랫폼",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "CoinDesk",
+    "url": "http://www.coindesk.com/api/",
+    "description": "비트코인 가격 지수",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "CoinGecko",
+    "url": "http://www.coingecko.com/api",
+    "description": "암호화폐 가격, 시장, 그리고 개발/사회적 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Coinigy",
+    "url": "https://coinigy.docs.apiary.io",
+    "description": "코이니지 계정과 상호작용하고 즉시 교환",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "CoinLayer",
+    "url": "https://coinlayer.com",
+    "description": "실시간 암호화폐 거래 비율",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Coinlib",
+    "url": "https://coinlib.io/apidocs",
+    "description": "암호화폐 가격",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Coinlore",
+    "url": "https://www.coinlore.com/cryptocurrency-data-api",
+    "description": "암호화폐 가격, 양 그리고 그 외 여러가지들",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "CoinMarketCap",
+    "url": "https://coinmarketcap.com/api/",
+    "description": "암호화폐 가격",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Coinpaprika",
+    "url": "https://api.coinpaprika.com",
+    "description": "암호화폐 가격, 양 그리고 그 외 여러가지들",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "암호화폐"
+  },
+  {
+    "name": "CoinRanking",
+    "url": "https://docs.coinranking.com/",
+    "description": "실시간 암호화폐 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "CryptoCompare",
+    "url": "https://www.cryptocompare.com/api#",
+    "description": "암호화폐 비교",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Cryptonator",
+    "url": "https://www.cryptonator.com/api/",
+    "description": "암호화폐 거래 비율",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Gemini",
+    "url": "https://docs.gemini.com/rest-api/",
+    "description": "암호화폐 거래",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "ICObench",
+    "url": "https://icobench.com/developers",
+    "description": "목록화, 점수, 상태 등에 대한 다양한 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Livecoin",
+    "url": "https://www.livecoin.net/api",
+    "description": "암호화폐 거래",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "MercadoBitcoin",
+    "url": "https://www.mercadobitcoin.net/api-doc/",
+    "description": "브라질 암호화폐 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Nexchange",
+    "url": "https://nexchange2.docs.apiary.io/",
+    "description": "암호화폐 거래 자동화 서비스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": true,
+    "category": "암호화폐"
+  },
+  {
+    "name": "NiceHash",
+    "url": "https://docs.nicehash.com/",
+    "description": "최대 암호화폐 채굴 시장",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "Poloniex",
+    "url": "https://poloniex.com/support/api/",
+    "description": "미국 기반의 디지털 자산 거래",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "WorldCoinIndex",
+    "url": "https://www.worldcoinindex.com/apiservice",
+    "description": "암호화폐 가격",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "암호화폐"
+  },
+  {
+    "name": "AniList",
+    "url": "https://github.com/AniList/ApiV2-GraphQL-Docs",
+    "description": "애니메이션 검색 & 트래킹",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "애니메이션"
+  },
+  {
+    "name": "AnimeNewsNetwork",
+    "url": "https://www.animenewsnetwork.com/encyclopedia/api.php",
+    "description": "애니메이션 산업 소식",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "애니메이션"
+  },
+  {
+    "name": "Jikan",
+    "url": "https://jikan.moe",
+    "description": "비공식 나만의 애니메이션 목록 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "애니메이션"
+  },
+  {
+    "name": "Kitsu",
+    "url": "http://docs.kitsu.apiary.io/",
+    "description": "애니메이션 검색 플랫폼",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "애니메이션"
+  },
+  {
+    "name": "Studio Ghibli",
+    "url": "https://ghibliapi.herokuapp.com",
+    "description": "스튜디오 지브리 필름 리소스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "애니메이션"
+  },
+  {
+    "name": "Behance",
+    "url": "https://www.behance.net/dev",
+    "description": "디자인",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "예술 & 디자인"
+  },
+  {
+    "name": "Cooper Hewitt",
+    "url": "https://collection.cooperhewitt.org/api",
+    "description": "스미스소니언 디자인 박물관",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "예술 & 디자인"
+  },
+  {
+    "name": "Dribbble",
+    "url": "http://developer.dribbble.com/v1/",
+    "description": "디자인",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "예술 & 디자인"
+  },
+  {
+    "name": "Harvard Art Museums",
+    "url": "https://github.com/harvardartmuseums/api-docs",
+    "description": "예술",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "예술 & 디자인"
+  },
+  {
+    "name": "Iconfinder",
+    "url": "https://developer.iconfinder.com",
+    "description": "아이콘",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "예술 & 디자인"
+  },
+  {
+    "name": "Icons8",
+    "url": "http://docs.icons8.apiary.io/#reference/0/meta",
+    "description": "아이콘",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "예술 & 디자인"
+  },
+  {
+    "name": "Noun Project",
+    "url": "http://api.thenounproject.com/목차.html",
+    "description": "아이콘",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "예술 & 디자인"
+  },
+  {
+    "name": "Rijksmuseum",
+    "url": "https://www.rijksmuseum.nl/en/api",
+    "description": "예술",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "예술 & 디자인"
+  },
+  {
+    "name": "18F",
+    "url": "http://18f.github.io/API-All-the-X/",
+    "description": "비공식 미국 연방정부 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Abbreviation",
+    "url": "https://market.mashape.com/daxeel/abbreviations",
+    "description": "약어와 의미",
+    "auth": "X-Mashape-Key",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Archive.org",
+    "url": "https://archive.readme.io/docs",
+    "description": "인터넷 아카이브",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "ARSAT",
+    "url": "https://datos.arsat.com.ar/developers/",
+    "description": "ARSAT 공공 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Callook.info",
+    "url": "https://callook.info",
+    "description": "미국 미국 햄 라디오 콜사인",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "CARTO",
+    "url": "https://carto.com/",
+    "description": "위치 정보 예측",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Celebinfo",
+    "url": "https://market.mashape.com/daxeel/celebinfo/",
+    "description": "유명인사 정보",
+    "auth": "X-Mashape-Key",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "CivicFeed",
+    "url": "https://developers.civicfeed.com/",
+    "description": "뉴스 기사 및 공개 데이터셋",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Datakick",
+    "url": "https://www.datakick.org/api",
+    "description": "공개 제품 데이터베이스",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Enigma Public",
+    "url": "http://docs.enigma.com/public/public_v20_api_about",
+    "description": "가장 광범위한 공용 데이터 목록",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "fonoApi",
+    "url": "https://fonoapi.freshpixl.com/",
+    "description": "모바일 기기 설명",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "French Address Search",
+    "url": "https://geo.api.gouv.fr/adresse",
+    "description": "프랑스 정부를 통한 주소 검색",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "LinkPreview",
+    "url": "https://www.linkpreview.net",
+    "description": "요청된 URL에 대한 제목, 설명 및 미리보기 이미지가 포함된 JSON 형식의 요약본을 가져옵니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Marijuana Strains",
+    "url": "http://strains.evanbusse.com/",
+    "description": "마리화나의 종, 맛과 효과",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Microlink.io",
+    "url": "https://microlink.io",
+    "description": "웹 사이트에서 구조화된 데이터를 추출합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "OpenCorporates",
+    "url": "http://api.opencorporates.com/documentation/API-Reference",
+    "description": "여러 국가의 기업 및 이사들에 대한 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Qmeta",
+    "url": "https://api.qmeta.net/",
+    "description": "글로벌 서치 엔진",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Quandl",
+    "url": "https://www.quandl.com/",
+    "description": "주식 시장 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Recreation Information Database",
+    "url": "https://ridb.recreation.gov/",
+    "description": "레크리에이션 지역, 연방 토지, 유적지, 박물관 및 기타 관광지/자원(미국)",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Scoop.it",
+    "url": "http://www.scoop.it/dev",
+    "description": "콘텐츠 큐레이션 서비스",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Teleport",
+    "url": "https://developers.teleport.org/",
+    "description": "삶의 질 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Universities List",
+    "url": "https://github.com/Hipo/university-domains-list",
+    "description": "대학 이름, 국가 및 도메인",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "University of Oslo",
+    "url": "https://data.uio.no/",
+    "description": "오슬로 대학교(노르웨이)의 과정, 강의 동영상, 강좌 등에 대한 자세한 정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "UPC database",
+    "url": "https://upcdatabase.org/api",
+    "description": "전 세계의 150만 개 이상의 바코드 번호",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/w/api.php?action=help",
+    "description": "위키미디어 재단에서 공동으로 편집한 기술 자료",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Wikipedia",
+    "url": "https://www.mediawiki.org/wiki/API:Main_page",
+    "description": "미디어위키 백과사전",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Yelp",
+    "url": "https://www.yelp.com/developers/documentation/v3",
+    "description": "로컬 비즈니스를 찾습니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "오픈 데이터"
+  },
+  {
+    "name": "Countly",
+    "url": "http://resources.count.ly/docs",
+    "description": "카우틀리 웹 분석",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "오픈 소스 프로젝트"
+  },
+  {
+    "name": "Drupal.org",
+    "url": "https://www.drupal.org/drupalorg/docs/api",
+    "description": "Drupal.org",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "오픈 소스 프로젝트"
+  },
+  {
+    "name": "Evil Insult Generator",
+    "url": "https://evilinsult.com/api",
+    "description": "악마의 모욕",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "오픈 소스 프로젝트"
+  },
+  {
+    "name": "Libraries.io",
+    "url": "https://libraries.io/api",
+    "description": "오픈 소스 소프트웨어 라이브러리",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "오픈 소스 프로젝트"
+  },
+  {
+    "name": "Edamam",
+    "url": "https://developer.edamam.com/",
+    "description": "레시피 검색",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음식 & 음료"
+  },
+  {
+    "name": "LCBO",
+    "url": "https://lcboapi.com/",
+    "description": "알코올",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음식 & 음료"
+  },
+  {
+    "name": "Open Brewery DB",
+    "url": "https://www.openbrewerydb.org",
+    "description": "맥주, 사이다, 크래프트 맥주병 가게",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "음식 & 음료"
+  },
+  {
+    "name": "Open Food Facts",
+    "url": "https://world.openfoodfacts.org/data",
+    "description": "식품 데이터베이스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "음식 & 음료"
+  },
+  {
+    "name": "PunkAPI",
+    "url": "https://punkapi.com/",
+    "description": "브루독 맥주 레시피",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "음식 & 음료"
+  },
+  {
+    "name": "Recipe Puppy",
+    "url": "http://www.recipepuppy.com/about/api/",
+    "description": "음식",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "음식 & 음료"
+  },
+  {
+    "name": "TacoFancy",
+    "url": "https://github.com/evz/tacofancy-api",
+    "description": "커뮤니티 기반 타코 데이터베이스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "음식 & 음료"
+  },
+  {
+    "name": "The Report of the Week",
+    "url": "https://github.com/andyklimczak/TheReportOfTheWeek-API",
+    "description": "음식 & 음료수 리뷰",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "음식 & 음료"
+  },
+  {
+    "name": "TheCocktailDB",
+    "url": "https://www.thecocktaildb.com/api.php",
+    "description": "칵테일 레시피",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "음식 & 음료"
+  },
+  {
+    "name": "TheMealDB",
+    "url": "https://www.themealdb.com/api.php",
+    "description": "요리 레시피",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "음식 & 음료"
+  },
+  {
+    "name": "What's on the menu?",
+    "url": "http://nypl.github.io/menus-api/",
+    "description": "NYPL 역사적 메뉴 모음 NYPL",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "음식 & 음료"
+  },
+  {
+    "name": "Zomato",
+    "url": "https://developers.zomato.com/api",
+    "description": "음식점을 찾아보세요.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음식 & 음료"
+  },
+  {
+    "name": "AI Mastering",
+    "url": "https://aimastering.com/api_docs/",
+    "description": "자동화된 음악 마스터링",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "음악"
+  },
+  {
+    "name": "Bandsintown",
+    "url": "https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0",
+    "description": "음악 행사",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Deezer",
+    "url": "https://developers.deezer.com/api",
+    "description": "음악",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Discogs",
+    "url": "https://www.discogs.com/developers/",
+    "description": "음악",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Genius",
+    "url": "https://docs.genius.com/",
+    "description": "풍부한 가사와 음악 지식",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Genrenator",
+    "url": "https://binaryjazz.us/genrenator-api/",
+    "description": "음악 장르 생성기",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "iTunes Search",
+    "url": "https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/",
+    "description": "소프트웨어 제품",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Jamendo",
+    "url": "https://developer.jamendo.com/v3.0/docs",
+    "description": "음악",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "KKBOX",
+    "url": "https://developer.kkbox.com",
+    "description": "KKBOX 플랫폼에서 음악 라이브러리, 재생 목록, 차트 및 공연을 가져옵니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "LastFm",
+    "url": "https://www.last.fm/api",
+    "description": "음악",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Lyrics.ovh",
+    "url": "http://docs.lyricsovh.apiary.io/",
+    "description": "노래 가사를 검색하는 간단한 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Mixcloud",
+    "url": "https://www.mixcloud.com/developers/",
+    "description": "음악",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "음악"
+  },
+  {
+    "name": "MusicBrainz",
+    "url": "https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2",
+    "description": "음악",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Musikki",
+    "url": "https://music-api.musikki.com/reference",
+    "description": "음악",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Musixmatch",
+    "url": "https://developer.musixmatch.com/",
+    "description": "음악",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Openwhyd",
+    "url": "https://openwhyd.github.io/openwhyd/API",
+    "description": "스트리밍 트랙의 큐레이션된 재생 목록(YouTube, SoundCloud 등)을 다운로드합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Songkick",
+    "url": "https://www.songkick.com/developer/",
+    "description": "음악 행사",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Songsterr",
+    "url": "https://www.songsterr.com/a/wa/api/",
+    "description": "기타, 베이스 및 드럼 탭과 코드를 제공합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "SoundCloud",
+    "url": "https://developers.soundcloud.com/",
+    "description": "사용자가 소리를 업로드하고 공유합니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Spotify",
+    "url": "https://beta.developer.spotify.com/documentation/web-api/",
+    "description": "스포티파이의 음악 카탈로그 지정, 사용자 라이브러리 관리, 권장 사항 등을 볼 수 있습니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "TasteDive",
+    "url": "https://tastedive.com/read/api",
+    "description": "유사한 아티스트 API(영화 및 TV 프로그램에도 적용됩니다)",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "TheAudioDB",
+    "url": "https://www.theaudiodb.com/api_guide.php",
+    "description": "음악",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Vagalume",
+    "url": "https://api.vagalume.com.br/docs/",
+    "description": "풍부한 가사와 음악 지식",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "음악"
+  },
+  {
+    "name": "Advice Slip",
+    "url": "http://api.adviceslip.com/",
+    "description": "임의의 advice slips을 생성합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "인물"
+  },
+  {
+    "name": "chucknorris.io",
+    "url": "https://api.chucknorris.io",
+    "description": "직접 큐레이션한 척 노리스 농담 JSON API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "인물"
+  },
+  {
+    "name": "FavQs.com",
+    "url": "https://favqs.com/api",
+    "description": "좋아하는 인용구를 수집, 검색 및 공유할 수 있습니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "인물"
+  },
+  {
+    "name": "FOAAS",
+    "url": "http://www.foaas.com/",
+    "description": "**F**uck **O**ff **A**s **A** **S**ervice",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "인물"
+  },
+  {
+    "name": "Forismatic",
+    "url": "http://forismatic.com/en/api/",
+    "description": "영감을 주는 명언",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "인물"
+  },
+  {
+    "name": "icanhazdadjoke",
+    "url": "https://icanhazdadjoke.com/api",
+    "description": "인터넷의 미국식 아재 농담 모음",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "인물"
+  },
+  {
+    "name": "kanye.rest",
+    "url": "https://kanye.rest",
+    "description": "칸예 웨스트 인용구 REST API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "인물"
+  },
+  {
+    "name": "Medium",
+    "url": "https://github.com/Medium/medium-api-docs",
+    "description": "독자와 아이디어에 대한 독특한 관점을 제공하는 독자와 작가들의 커뮤니티",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "인물"
+  },
+  {
+    "name": "NaMoMemes",
+    "url": "https://github.com/theIYD/NaMoMemes",
+    "description": "나렌드라 모디 밈",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "인물"
+  },
+  {
+    "name": "Programming Quotes",
+    "url": "https://github.com/skolakoda/programming-quotes-api",
+    "description": "오픈 소스 프로젝트를 위한 프로그래밍 인용구 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "인물"
+  },
+  {
+    "name": "Quote Garden",
+    "url": "https://pprathameshmore.github.io/QuoteGarden/",
+    "description": "5000개 이상의 유명한 인용구를 제공하는 REST API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "인물"
+  },
+  {
+    "name": "Quotes on Design",
+    "url": "https://quotesondesign.com/api/",
+    "description": "영감을 주는 인용구",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "인물"
+  },
+  {
+    "name": "Traitify",
+    "url": "https://app.traitify.com/developer",
+    "description": "성격을 평가, 수집 및 분석합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "인물"
+  },
+  {
+    "name": "tronalddump.io",
+    "url": "https://www.tronalddump.io",
+    "description": "도널드 트럼프 대통령이 말한 것들에 대한 API & 웹 아카이브입니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "인물"
+  },
+  {
+    "name": "BCLaws",
+    "url": "http://www.bclaws.ca/civix/template/complete/api/index.html",
+    "description": "브리티시 컬럼비아의 법칙에 접근합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "BusinessUSA",
+    "url": "https://business.usa.gov/developer",
+    "description": "미국 프로그램, 이벤트, 서비스 등에 대한 권한 있는 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Census.gov",
+    "url": "https://www.census.gov/data/developers/data-sets.html",
+    "description": "미국 인구조사국에서 인구통계 및 비즈니스에 대한 다양한 API와 데이터 세트를 제공합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "City, Lyon Opendata",
+    "url": "https://data.beta.grandlyon.com/fr/accueil",
+    "description": "프랑스 리옹의 오픈 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "City, Nantes Opendata",
+    "url": "https://data.nantesmetropole.fr/pages/home/",
+    "description": "프랑스 낭트의 오픈 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "City, Prague Opendata",
+    "url": "http://opendata.praha.eu/en",
+    "description": "체코 프라하의 오픈 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Code.gov",
+    "url": "https://code.gov",
+    "description": "미국 연방 정부를 위한 오픈 소스 및 코드 공유를 위한 플랫폼",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Colorado Data Engine",
+    "url": "http://codataengine.org/",
+    "description": "콜로라도의 공개 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Colorado Information Marketplace",
+    "url": "https://data.colorado.gov/",
+    "description": "콜로라도 주립 정부 오픈 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Data USA",
+    "url": "https://datausa.io/about/api/",
+    "description": "미국 공공 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Data.gov",
+    "url": "https://api.data.gov/",
+    "description": "미국 정부 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Data.parliament.uk",
+    "url": "http://www.data.parliament.uk/developers/",
+    "description": "탄원서, 청구서, MP 투표, 참석 등에 대한 정보를 포함한 실시간 데이터 세트",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "District of Columbia Open Data",
+    "url": "http://opendata.dc.gov/pages/using-apis",
+    "description": "범죄, GIS, 재무 데이터 등을 포함한 D.C. 정부 공공 데이터셋",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "EPA",
+    "url": "https://developer.epa.gov/category/apis/",
+    "description": "미국 환경 보호국에서 제공하는 웹 서비스와 데이터 세트",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "FEC",
+    "url": "https://api.open.fec.gov/developers/",
+    "description": "연방 선거의 선거 기부에 대한 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Federal Register",
+    "url": "https://www.federalregister.gov/reader-aids/developer-resources",
+    "description": "미국 정부의 데일리 저널",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Food Standards Agency",
+    "url": "http://ratings.food.gov.uk/open-data/en-GB",
+    "description": "영국 음식 위생 등급 데이터 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Open Government, Australia",
+    "url": "https://www.data.gov.au/",
+    "description": "호주 정부 오픈 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Open Government, Belgium",
+    "url": "https://data.gov.be/",
+    "description": "벨기에 정부 오픈 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Open Government, Canada",
+    "url": "http://open.canada.ca/en",
+    "description": "캐나다 정부 오픈 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Open Government, France",
+    "url": "https://www.data.gouv.fr/",
+    "description": "프랑스 정부 오픈 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Open Government, India",
+    "url": "https://data.gov.in/",
+    "description": "인도 정부 오픈 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Open Government, Italy",
+    "url": "https://www.dati.gov.it/",
+    "description": "이탈리아 정부 오픈 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Open Government, New Zealand",
+    "url": "https://www.data.govt.nz/",
+    "description": "뉴질랜드 정부 오픈 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Open Government, Romania",
+    "url": "http://data.gov.ro/",
+    "description": "루마니아 정부 오픈 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Open Government, Taiwan",
+    "url": "https://data.gov.tw/",
+    "description": "대만 정부 오픈 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Open Government, USA",
+    "url": "https://www.data.gov/",
+    "description": "미국 정부 오픈 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Regulations.gov",
+    "url": "https://regulationsgov.github.io/developers/",
+    "description": "연방 규칙 제정 과정에 대한 이해를 높이기 위한 연방 규제 자료",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "Represent by Open North",
+    "url": "https://represent.opennorth.ca/",
+    "description": "캐나다 정부 대표자를 찾습니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "USAspending.gov",
+    "url": "https://api.usaspending.gov/",
+    "description": "미국 연방 지출 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "정부"
+  },
+  {
+    "name": "CircleCI",
+    "url": "https://circleci.com/docs/api/v1-reference/",
+    "description": "지속적 통합과 지속적 전달을 이용한 소프트웨어 개발 과정 자동화",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지속적 통합"
+  },
+  {
+    "name": "Codeship",
+    "url": "https://apidocs.codeship.com/",
+    "description": "코드쉽은 클라우드에 있는 지속적 통합 플랫폼입니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지속적 통합"
+  },
+  {
+    "name": "Travis CI",
+    "url": "https://docs.travis-ci.com/api/",
+    "description": "즉시, 코드를 테스트하기위해 GitHub 프로젝트를 트레비스 CI로 동기화합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지속적 통합"
+  },
+  {
+    "name": "adresse.data.gouv.fr",
+    "url": "https://adresse.data.gouv.fr",
+    "description": "프랑스의 주소 데이터베이스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Battuta",
+    "url": "http://battuta.medunes.net",
+    "description": "나의 국가/지역/도시 위치 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Bing Maps",
+    "url": "https://www.microsoft.com/maps/",
+    "description": "빙 지도 데이터를 기반으로 디지털 맵을 생성/사용자화합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "bng2latlong",
+    "url": "https://www.getthedata.com/bng2latlong",
+    "description": "영국 OSGB36 Easting 및 Northing(영국 국가 그리드)을 WGS84 위도 및 경도로 변환합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "지오코딩"
+  },
+  {
+    "name": "CitySDK",
+    "url": "http://www.citysdk.eu/citysdk-toolkit/",
+    "description": "유럽 도시 오픈 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Kakao Maps",
+    "url": "http://apis.map.kakao.com/",
+    "description": "카카오 지도 API는 웹사이트와 모바일 애플리케이션에서 지도를 이용한 서비스를 제작할 수 있도록 다양한 기능을 제공하고 있습니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "FreeGeoIP",
+    "url": "https://freegeoip.app/",
+    "description": "등록할 필요가 없는 무료 Geo IP 정보입니다. 시간당 15k 속도 제한",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "지오코딩"
+  },
+  {
+    "name": "GeoApi",
+    "url": "https://api.gouv.fr/api/geoapi.html",
+    "description": "프랑스 지리 자료",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Geocod.io",
+    "url": "https://www.geocod.io/",
+    "description": "대량으로 지오코딩/역방향 지오코딩을 처리합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Geocode.xyz",
+    "url": "https://geocode.xyz/",
+    "description": "전 세계 전방/후방 지리적 코드화, 배치 지리적 코드화 및 지구적 특성을 제공합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "GeoDataSource",
+    "url": "https://www.geodatasource.com/web-service",
+    "description": "위도 및 경도 좌표를 사용하여 도시 이름을 지오코딩합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "GeoJS",
+    "url": "https://geojs.io/",
+    "description": "ChatOps 통합을 통한 IP 지오로케이션",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "지오코딩"
+  },
+  {
+    "name": "GeoNames",
+    "url": "http://www.geonames.org/export/web-services.html",
+    "description": "장소 이름 및 기타 지리적 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "geoPlugin",
+    "url": "https://www.geoplugin.com",
+    "description": "IP 지리위치정보 및 통화 변환",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Google Earth Engine",
+    "url": "https://developers.google.com/earth-engine/",
+    "description": "행성 규모의 환경 데이터 분석을 위한 클라우드 기반 플랫폼",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Google Maps",
+    "url": "https://developers.google.com/maps/",
+    "description": "구글 지도 데이터를 기반으로 디지털 맵을 만들고 사용자화합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "HelloSalut",
+    "url": "https://www.fourtonfish.com/hellosalut/hello/",
+    "description": "사용자 언어에 따라 \"Hello\"에 대한 변역을 얻습니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "HERE Maps",
+    "url": "https://developer.here.com",
+    "description": "HERE의 지도 데이터를 기반으로 디지털 맵을 생성하고 사용자화합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Indian Cities",
+    "url": "https://indian-cities-api-nocbegfhqg.now.sh/",
+    "description": "모든 인도 도시를 깔끔한 JSON 형식으로 얻습니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "지오코딩"
+  },
+  {
+    "name": "IP 2 Country",
+    "url": "https://ip2country.info",
+    "description": "IP를 국가에 매핑합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "IP Address Details",
+    "url": "https://ipinfo.io/",
+    "description": "IP 주소를 사용하여 지리 위치를 찾습니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "IP Location",
+    "url": "http://ip-api.com/",
+    "description": "IP 주소가 있는 위치를 찾습니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "IP Location",
+    "url": "https://ipapi.co/",
+    "description": "IP 주소 위치 정보를 찾습니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "IP Sidekick",
+    "url": "https://ipsidekick.com",
+    "description": "IP 주소에 대한 추가 정보를 반환하는 지리위치정보 API입니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "IP Vigilante",
+    "url": "https://www.ipvigilante.com/",
+    "description": "무료 IP 지리위치정보 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "IP2Location",
+    "url": "https://www.ip2location.com/web-service/ip2location",
+    "description": "55개 이상의 인자를 얻을 수 있는 IP 지리위치정보 웹 서비스",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "IP2Proxy",
+    "url": "https://www.ip2location.com/web-service/ip2proxy",
+    "description": "IP 주소를 사용하여 프록시 및 VPN을 검색합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "IPGeolocationAPI.com",
+    "url": "https://ipgeolocationapi.com/",
+    "description": "국가 세부 정보가 포함된 IP를 통해 방문자를 찾습니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "지오코딩"
+  },
+  {
+    "name": "IPInfoDB",
+    "url": "https://ipinfodb.com/api",
+    "description": "IP 주소로 국가, 지역, 도시 및 시간대 조회를 위한 무료 지역위치정보 도구와 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "ipstack",
+    "url": "https://ipstack.com/",
+    "description": "IP 주소로 웹 사이트 방문자를 찾아 식별합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Kwelo Network",
+    "url": "https://www.kwelo.com/network/ip-address",
+    "description": "IP 주소에 대한 자세한 정보를 찾아 가져옵니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "지오코딩"
+  },
+  {
+    "name": "LocationIQ",
+    "url": "https://locationiq.org/docs/",
+    "description": "전진/후진 지역위치정보 및 집단 지역위치정보를 제공합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Mapbox",
+    "url": "https://www.mapbox.com/developers/",
+    "description": "아름다운 디지털 맵을 만들거나 사용자화합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Mexico",
+    "url": "https://github.com/IcaliaLabs/sepomex",
+    "description": "멕시코 RESTful zip code API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "One Map, Singapore",
+    "url": "https://docs.onemap.sg/",
+    "description": "싱가포르 주소용 싱가포르 토지 당국 REST API 서비스",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "OnWater",
+    "url": "https://onwater.io/",
+    "description": "위도/경도가 물 위에 있는지 또는 육지에 있는지 확인합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "OpenCage",
+    "url": "https://opencagedata.com",
+    "description": "열린 데이터를 사용하여 지역위치정보를 확인합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "지오코딩"
+  },
+  {
+    "name": "OpenStreetMap",
+    "url": "http://wiki.openstreetmap.org/wiki/API",
+    "description": "탐색, 지리 위치 및 지리적 데이터",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "PostcodeData.nl",
+    "url": "http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json",
+    "description": "네덜란드어 주소의 우편 번호를 기준으로 지리 위치 데이터를 제공합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Postcodes.io",
+    "url": "https://postcodes.io",
+    "description": "영국의 우편 번호 조회 및 지역위치정보",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "지오코딩"
+  },
+  {
+    "name": "REST Countries",
+    "url": "https://restcountries.eu",
+    "description": "RESTful API를 통해 국가 정보를 얻습니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "SmartIP.io",
+    "url": "https://smartip.io",
+    "description": "IP 지역위치정보 및 위협 지능 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Uebermaps",
+    "url": "https://uebermaps.com/api/v2",
+    "description": "지도를 검색하고 친구들과 공유합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "US ZipCode",
+    "url": "https://smartystreets.com/docs/cloud/us-zipcode-api",
+    "description": "US Zip Code에 대한 데이터를 확인하고 추가합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Utah AGRC",
+    "url": "https://api.mapserv.utah.gov",
+    "description": "유타 주소 지역위치정보를 위한 유타 웹 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "ViaCep",
+    "url": "https://viacep.com.br",
+    "description": "브라질의 우편번호 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "ZipCodeAPI",
+    "url": "https://www.zipcodeapi.com",
+    "description": "미국 우편 번호 거리, 반경 및 위치 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Zippopotam",
+    "url": "http://www.zippopotam.us",
+    "description": "국가, 도시, 주 등의 장소에 대한 정보를 얻습니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "지오코딩"
+  },
+  {
+    "name": "Adzuna",
+    "url": "https://developer.adzuna.com/overview",
+    "description": "일자리 게시판 모음",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "Authentic Jobs",
+    "url": "https://authenticjobs.com/api/docs",
+    "description": "디자이너, 해커 및 창의적인 전문가를 위한 일자리 게시판",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "Careerjet",
+    "url": "https://www.careerjet.com/partners/api/",
+    "description": "일자리 검색 엔진",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "Github Jobs",
+    "url": "https://jobs.github.com/api",
+    "description": "소프트웨어 개발자를 위한 일자리",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "직업"
+  },
+  {
+    "name": "GraphQL Jobs",
+    "url": "https://api.graphql.jobs",
+    "description": "GraphQL을 이용한 일자리",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "직업"
+  },
+  {
+    "name": "Indeed",
+    "url": "https://www.indeed.com/publisher",
+    "description": "일자리 게시판 모음",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "Jobs2Careers",
+    "url": "http://api.jobs2careers.com/api/spec.pdf",
+    "description": "일자리 모음",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "Jooble",
+    "url": "https://us.jooble.org/api/about",
+    "description": "일자리 검색 엔진",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "Juju",
+    "url": "http://www.juju.com/publisher/spec/",
+    "description": "일자리 검색 엔진",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "Open Skills",
+    "url": "https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview",
+    "description": "일자리 제목, 기술 및 관련 작업 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "Reed",
+    "url": "https://www.reed.co.uk/developers",
+    "description": "일자리 게시판 모음",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "Search.gov Jobs",
+    "url": "https://search.gov/developer/jobs.html",
+    "description": "미국 정부의 일자리 목록",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "The Muse",
+    "url": "https://www.themuse.com/developers/api/v2",
+    "description": "일자리 게시판과 회사 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "Upwork",
+    "url": "https://developers.upwork.com/",
+    "description": "프리랜서 일자리 게시판과 관리 시스템",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "USAJOBS",
+    "url": "https://developer.usajobs.gov/",
+    "description": "미국 정부 일자리 게시판",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "ZipRecruiter",
+    "url": "https://www.ziprecruiter.com/publishers",
+    "description": "일자리 검색 앱 및 웹 사이트",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "직업"
+  },
+  {
+    "name": "Brazilian Vehicles and Prices",
+    "url": "https://deividfortuna.github.io/fipe/",
+    "description": "Fundação Instituto de Pesquisas Econômicas의 차량 정보 - Fipe",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "차량"
+  },
+  {
+    "name": "Kelley Blue Book",
+    "url": "http://developer.kbb.com/#!/data/1-Default",
+    "description": "차량 정보, 가격, 구성 및 기타 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "차량"
+  },
+  {
+    "name": "Mercedes-Benz",
+    "url": "https://developer.mercedes-benz.com/apis",
+    "description": "텔레매틱스 데이터, 원격으로 차량 기능, 차량 구성 도구, 서비스 딜러점을 찾습니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "차량"
+  },
+  {
+    "name": "NHTSA",
+    "url": "https://vpic.nhtsa.dot.gov/api/",
+    "description": "NHTSA 제품 정보 카탈로그 및 차량 목록",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "차량"
+  },
+  {
+    "name": "Smartcar",
+    "url": "https://smartcar.com/docs/",
+    "description": "차량을 잠그거나 잠금 해제하고 주행 기록계 수치 및 위치와 같은 데이터를 가져옵니다. 대부분의 신차에 적용됩니다.",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "차량"
+  },
+  {
+    "name": "Bhagavad Gita",
+    "url": "https://bhagavadgita.io/api",
+    "description": "바가바드 기타의 글",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "책"
+  },
+  {
+    "name": "BookNomads",
+    "url": "https://www.booknomads.com/dev",
+    "description": "네덜란드와 플란데런에서 출판된 책 (약 250만), 책 표지와 관련된 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "책"
+  },
+  {
+    "name": "British National Bibliography",
+    "url": "http://bnb.data.bl.uk/",
+    "description": "책",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "책"
+  },
+  {
+    "name": "Goodreads",
+    "url": "https://www.goodreads.com/api",
+    "description": "책",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "책"
+  },
+  {
+    "name": "Google Books",
+    "url": "https://developers.google.com/books/",
+    "description": "책",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "책"
+  },
+  {
+    "name": "LibGen",
+    "url": "http://garbage.world/posts/libgen/",
+    "description": "라이브러리 제네시스의 검색 엔진",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "책"
+  },
+  {
+    "name": "Open Library",
+    "url": "https://openlibrary.org/developers/api",
+    "description": "책, 책표지와 관련된 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "책"
+  },
+  {
+    "name": "Penguin Publishing",
+    "url": "http://www.penguinrandomhouse.biz/webservices/rest/",
+    "description": "책, 책표지와 관련된 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "책"
+  },
+  {
+    "name": "Box",
+    "url": "https://developer.box.com/",
+    "description": "파일 공유와 저장소",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "클라우드 저장소 & 파일 공유"
+  },
+  {
+    "name": "Dropbox",
+    "url": "https://www.dropbox.com/developers",
+    "description": "파일 공유와 저장소",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "클라우드 저장소 & 파일 공유"
+  },
+  {
+    "name": "Google Drive",
+    "url": "https://developers.google.com/drive/",
+    "description": "파일 공유와 저장소",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "클라우드 저장소 & 파일 공유"
+  },
+  {
+    "name": "OneDrive",
+    "url": "https://dev.onedrive.com/",
+    "description": "파일 공유와 저장소",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "클라우드 저장소 & 파일 공유"
+  },
+  {
+    "name": "Pastebin",
+    "url": "https://pastebin.com/api/",
+    "description": "평문 저장소",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "클라우드 저장소 & 파일 공유"
+  },
+  {
+    "name": "Temporal",
+    "url": "https://gateway.temporal.cloud/ipns/docs.api.temporal.cloud",
+    "description": "IPFS 기반 파일 저장소, 선택적 IPNS 이름으로 공유",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "클라우드 저장소 & 파일 공유"
+  },
+  {
+    "name": "WeTransfer",
+    "url": "https://developers.wetransfer.com",
+    "description": "파일 공유",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "클라우드 저장소 & 파일 공유"
+  },
+  {
+    "name": "Adorable Avatars",
+    "url": "http://avatars.adorable.io",
+    "description": "랜덤 만화 아바타를 생성합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "Bacon Ipsum",
+    "url": "https://baconipsum.com/json-api/",
+    "description": "Meatier Lorem Ipsum 생성기",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "Dicebear Avatars",
+    "url": "https://avatars.dicebear.com/",
+    "description": "임의의 픽셀아트 아바타를 생성합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "FakeJSON",
+    "url": "https://fakejson.com",
+    "description": "테스트 및 가짜 데이터를 생성하는 서비스",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "FHIR",
+    "url": "http://fhirtest.uhn.ca/home",
+    "description": "신속한 의료 상호 운용성의 리소스 테스트 데이터",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "Hipster Ipsum",
+    "url": "http://hipsterjesus.com/",
+    "description": "Hipster Ipsum를 생성합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "Identicon",
+    "url": "https://www.kwelo.com/media/identicon/",
+    "description": "가상의 아바타 이미지를 생성합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "JSONPlaceholder",
+    "url": "http://jsonplaceholder.typicode.com/",
+    "description": "가짜 데이터를 테스트 및 프로토타이핑합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "Lorem Text",
+    "url": "https://market.mashape.com/montanaflynn/lorem-text-generator",
+    "description": "Lorem Ipsum를 생성합니다.",
+    "auth": "X-Mashape-Key",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "LoremPicsum",
+    "url": "http://lorempicsum.com",
+    "description": "플레이스홀더 사진을 생성합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "Loripsum",
+    "url": "http://loripsum.net/",
+    "description": "Lorem Ipsum를 생성합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "RandomUser",
+    "url": "https://randomuser.me",
+    "description": "임의의 사용자 데이터를 생성합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "RoboHash",
+    "url": "https://robohash.org/",
+    "description": "임의의 로봇/외계인 아바타를 생성합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "This Person Does not Exist",
+    "url": "https://thispersondoesnotexist.com",
+    "description": "존재하지 않는 사람들의 실제같은 얼굴을 생성합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "UI Names",
+    "url": "https://github.com/thm/uinames",
+    "description": "임의의 가짜 이름을 생성합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "○ ✕",
+    "url": "https://yesno.wtf/api",
+    "description": "임의로 ○ 또는 아니요를 생성합니다.",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "테스트 데이터"
+  },
+  {
+    "name": "Aylien Text Analysis",
+    "url": "http://docs.aylien.com/",
+    "description": "정보 검색 및 자연어 API의 집합",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "텍스트 분석"
+  },
+  {
+    "name": "Cloudmersive Natural Language Processing",
+    "url": "https://www.cloudmersive.com/nlp-api",
+    "description": "자연어 처리 및 텍스트 분석",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": true,
+    "category": "텍스트 분석"
+  },
+  {
+    "name": "Detect Language",
+    "url": "https://detectlanguage.com/",
+    "description": "텍스트 언어를 감지합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "텍스트 분석"
+  },
+  {
+    "name": "Google Cloud Natural",
+    "url": "https://cloud.google.com/natural-language/docs/",
+    "description": "감성 및 구문 분석을 포함한 자연어 이해 기술",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "텍스트 분석"
+  },
+  {
+    "name": "Language Identification",
+    "url": "https://rapidapi.com/BigLobster/api/language-identification-prediction",
+    "description": "모든 텍스트에 대한 자동 언어 감지합니다. (175개 이상의 언어 지원)",
+    "auth": "X-Mashape-Key",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "텍스트 분석"
+  },
+  {
+    "name": "Semantira",
+    "url": "https://semantria.readme.io/docs",
+    "description": "감성 분석, 분류 및 명명된 엔티티를 추출하는 텍스트 분석",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "텍스트 분석"
+  },
+  {
+    "name": "Watson Natural Language Understanding",
+    "url": "https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/",
+    "description": "고급 텍스트 분석을 위한 자연 언어 처리",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "텍스트 분석"
+  },
+  {
+    "name": "Postmon",
+    "url": "http://postmon.com.br",
+    "description": "쉽고, 빠르고, 무료로 브라질 ZIP 코드를 쿼리하고 주문할 수 있는 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": false,
+    "category": "트래킹"
+  },
+  {
+    "name": "Sweden",
+    "url": "https://developer.postnord.com/docs2",
+    "description": "운송 중인 소포에 대한 정보를 제공합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "트래킹"
+  },
+  {
+    "name": "UPS",
+    "url": "https://www.ups.com/upsdeveloperkit",
+    "description": "발송 및 주소 정보",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "트래킹"
+  },
+  {
+    "name": "WhatPulse",
+    "url": "https://whatpulse.org/pages/webapi/",
+    "description": "키보드/마우스 사용량을 측정하는 어플리캐이션",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "트래킹"
+  },
+  {
+    "name": "EPO",
+    "url": "https://developers.epo.org/",
+    "description": "유럽 특허검색시스템 API",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "특허"
+  },
+  {
+    "name": "TIPO",
+    "url": "https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00",
+    "description": "대만 특허검색시스템 API",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "특허"
+  },
+  {
+    "name": "USPTO",
+    "url": "https://www.uspto.gov/learning-and-resources/open-data-and-mobility",
+    "description": "미국 특허 API 서비스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "특허"
+  },
+  {
+    "name": "Eventbrite",
+    "url": "https://www.eventbrite.com/developer/v3/",
+    "description": "행사를 찾아보세요",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "행사"
+  },
+  {
+    "name": "Picatic",
+    "url": "http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto",
+    "description": "어디서든 티켓을 팔아보세요.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "행사"
+  },
+  {
+    "name": "Ticketmaster",
+    "url": "http://developer.ticketmaster.com/products-and-docs/apis/getting-started/",
+    "description": "행사, 명소 또는 장소를 검색합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "행사"
+  },
+  {
+    "name": "AirVisual",
+    "url": "https://airvisual.com/api",
+    "description": "공기 질과 날씨 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "환경"
+  },
+  {
+    "name": "GrünstromIndex",
+    "url": "https://www.corrently.de/hintergrund/gruenstromindex/index.html",
+    "description": "독일의 녹색 전력 지수(Grünstromindex/GSI).",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": false,
+    "cors": true,
+    "category": "환경"
+  },
+  {
+    "name": "OpenAQ",
+    "url": "https://docs.openaq.org/",
+    "description": "공개 공기 질 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "환경"
+  },
+  {
+    "name": "PM25.in",
+    "url": "http://www.pm25.in/api_doc",
+    "description": "중국의 공기 질",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "환경"
+  },
+  {
+    "name": "PVWatts",
+    "url": "https://developer.nrel.gov/docs/solar/pvwatts/v6/",
+    "description": "에너지 생산 광전(PV) 에너지 시스템",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "환경"
+  },
+  {
+    "name": "UK Carbon Intensity",
+    "url": "https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0",
+    "description": "National Grid에서 개발한 영국 공식 탄소 집약도 API",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "환경"
+  },
+  {
+    "name": "1Forge",
+    "url": "https://1forge.com/forex-data-api/api-documentation",
+    "description": "외환시장 데이터",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "환전소"
+  },
+  {
+    "name": "Currencylayer",
+    "url": "https://currencylayer.com/documentation",
+    "description": "교환비율과 통화변환",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "환전소"
+  },
+  {
+    "name": "Czech National Bank",
+    "url": "https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml",
+    "description": "교환비율 모음",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "환전소"
+  },
+  {
+    "name": "ExchangeRate-API",
+    "url": "https://www.exchangerate-api.com",
+    "description": "무료 통화변환",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "환전소"
+  },
+  {
+    "name": "Exchangeratesapi.io",
+    "url": "https://exchangeratesapi.io",
+    "description": "통화변환과 교환비율",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "환전소"
+  },
+  {
+    "name": "Fixer.io",
+    "url": "http://fixer.io",
+    "description": "교환비율과 통화변환",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "환전소"
+  },
+  {
+    "name": "Frankfurter",
+    "url": "https://www.frankfurter.app/docs",
+    "description": "교환비율, 통화변환과 시계열",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "환전소"
+  },
+  {
+    "name": "ratesapi",
+    "url": "https://ratesapi.io",
+    "description": "무료 교환비율과 역사적비율",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": false,
+    "category": "환전소"
+  },
+  {
+    "name": "Bitly",
+    "url": "http://dev.bitly.com/get_started.html",
+    "description": "URL 쇼트너와 링크 관리",
+    "auth": "OAuth",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "URL 쇼트너"
+  },
+  {
+    "name": "CleanURI",
+    "url": "https://cleanuri.com/docs",
+    "description": "URL 쇼트너 서비스",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "URL 쇼트너"
+  },
+  {
+    "name": "ClickMeter",
+    "url": "https://support.clickmeter.com/hc/en-us/categories/201474986",
+    "description": "당신의 마케팅 링크를 모니터하고 비교하고 최적화합니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "URL 쇼트너"
+  },
+  {
+    "name": "Rebrandly",
+    "url": "https://developers.rebrandly.com/v1/docs",
+    "description": "URL 쇼트너 브랜드 링크 커스텀",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": true,
+    "cors": false,
+    "category": "URL 쇼트너"
+  },
+  {
+    "name": "Relink",
+    "url": "https://rel.ink",
+    "description": "안전하고 무료인 URL 쇼트너",
+    "auth": "✕",
+    "needsAuth": false,
+    "https": true,
+    "cors": true,
+    "category": "URL 쇼트너"
+  },
+  {
+    "name": "네이버 검색",
+    "url": "https://developers.naver.com/products/search/",
+    "description": "네이버 블로그, 이미지, 웹, 뉴스, 백과사전, 책, 카페, 지식iN 등 검색",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "네이버 지도(웹, 모바일)",
+    "url": "https://www.ncloud.com/product/applicationService/maps",
+    "description": "네이버 지도 표시 및 주소 좌표 변환",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "네이버 아이디로 로그인",
+    "url": "https://developers.naver.com/products/login/api/",
+    "description": "외부 사이트에서 네이버 아이디로 로그인 기능 구현 및 프로필 조회",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "네이버 파파고 번역",
+    "url": "https://developers.naver.com/products/nmt/",
+    "description": "Papago 번역 인공신경망 기반 기계 번역",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "네이버 클로바 얼굴 인식",
+    "url": "https://developers.naver.com/products/clova/face/",
+    "description": "입력된 사진을 입력받아 얼굴윤곽/부위/표정/유명인 닮음도를 리턴",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "네이버 데이터랩 검색어트렌드",
+    "url": "https://developers.naver.com/docs/datalab/search/",
+    "description": "통합검색어 트렌드 조회",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "네이버 데이터랩 쇼핑인사이트",
+    "url": "https://developers.naver.com/docs/datalab/shopping/",
+    "description": "쇼핑인사이트 분야별 트렌드 조회",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "네이버 이미지 캡차",
+    "url": "https://developers.naver.com/docs/utils/captcha/overview/",
+    "description": "자동 입력 방지용 보안 이미지 생성 및 입력값 비교",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "네이버 음성 캡차",
+    "url": "https://developers.naver.com/docs/utils/scaptcha/overview/",
+    "description": "자동 입력 방지용 보안 이미지 생성 및 입력값 비교",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "네이버 캘린더",
+    "url": "https://developers.naver.com/products/calendar/",
+    "description": "로그인한 사용자 캘린더에 일정 추가 가능",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "네이버 카페",
+    "url": "https://developers.naver.com/products/cafe/",
+    "description": "특정 네이버 카페 가입하고 글을 쓸 수 있습니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "네이버 블로그",
+    "url": "https://developers.naver.com/products/blog/",
+    "description": "네이버 회원의 블로그에 글을 쓸 수 있습니다.",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "네이버 단축URL",
+    "url": "https://www.ncloud.com/product/applicationService/nShortUrl",
+    "description": "입력된 URL을 me2.do 형태의 짧은 URL로 변환",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "네이버 공유하기",
+    "url": "https://developers.naver.com/products/navershare/",
+    "description": "네이버 블로그, 카페 공유하기",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "네이버"
+  },
+  {
+    "name": "카카오톡 사용자 관리",
+    "url": "https://developers.kakao.com/features/platform#사용자-관리",
+    "description": "카카오 계정 사용자 관리",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오톡 친구",
+    "url": "https://developers.kakao.com/features/platform#친구-API",
+    "description": "카카오톡 친구 목록을 활용해 소셜 기능까지",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오링크",
+    "url": "https://developers.kakao.com/features/kakao#카카오-링크",
+    "description": "카카오 링크",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오톡",
+    "url": "https://developers.kakao.com/features/kakao#카카오톡-API",
+    "description": "카카오톡",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오내비",
+    "url": "https://developers.kakao.com/features/kakao#카카오내비-API",
+    "description": "카카오내비",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오페이",
+    "url": "https://developers.kakao.com/features/kakao#카카오페이-API",
+    "description": "카카오페이",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오스토리",
+    "url": "https://developers.kakao.com/features/kakao#카카오스토리-API",
+    "description": "카카오스토리",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오톡 푸시 알림",
+    "url": "https://developers.kakao.com/features/platform#푸시-알림",
+    "description": "카카오톡 푸시 알림",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오 앱로그 분석",
+    "url": "https://developers.kakao.com/features/platform#앱로그-분석",
+    "description": "카카오 앱로그 분석",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오 검색",
+    "url": "https://developers.kakao.com/features/platform#검색",
+    "description": "카카오 검색",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오 음성",
+    "url": "https://developers.kakao.com/features/platform#음성",
+    "description": "카카오 음성",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오 지도/로컬",
+    "url": "https://developers.kakao.com/features/platform#지도-로컬",
+    "description": "카카오 지도/로컬",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오 비전",
+    "url": "https://developers.kakao.com/features/platform#비전",
+    "description": "카카오 비전",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오 번역",
+    "url": "https://developers.kakao.com/features/platform#번역",
+    "description": "카카오 번역",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오톡 채널",
+    "url": "https://developers.kakao.com/features/kakao#카카오톡-채널-API",
+    "description": "카카오톡 채널",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  },
+  {
+    "name": "카카오모먼트",
+    "url": "https://developers.kakao.com/features/kakao#카카오모먼트-API",
+    "description": "카카오모먼트",
+    "auth": "apiKey",
+    "needsAuth": true,
+    "https": false,
+    "cors": false,
+    "category": "카카오"
+  }
+]
