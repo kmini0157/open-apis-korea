@@ -11,9 +11,26 @@
   **API 키가 전혀 필요 없습니다.**
 - **하이브리드 랭킹** — 의미 유사도(0.75) + 키워드 일치(0.25). 키워드만으로는 못 찾는
   “환율→환전소”, “이미지 생성→Pollinations” 같은 의도 매칭을 임베딩이 해결합니다.
+- **💡 AI 솔루션 설계** — 만들고 싶은 걸 적으면 관련 API를 골라 **조합 설계 + 동작 코드**를 생성합니다.
+  무료 LLM([Puter.js](https://developer.puter.com/))을 사용하며 **API 키가 없습니다.**
+- **🟢 라이브 상태 배지** — GitHub Actions 크론이 각 API의 동작 여부/응답속도를 주기적으로
+  점검해 `data/status.json`에 기록하고, 카드에 배지로 표시합니다. “동작 확인된 것만” 필터 제공.
+- **⭐ 즐겨찾기 + PWA** — 카드의 ☆로 즐겨찾기, localStorage 저장. 설치형 PWA(오프라인 캐시).
 - **임베딩 캐시** — 최초 1회 711개 API를 임베딩한 뒤 IndexedDB에 저장. 이후 검색은 즉시.
-- **폴백** — 모델 로드에 실패해도 키워드 검색으로 항상 동작합니다.
-- **필터** — 인증 불필요 / HTTPS / CORS / 카테고리.
+- **폴백** — 모델/LLM 로드에 실패해도 키워드 검색으로 항상 동작합니다.
+- **필터** — 인증 불필요 / HTTPS / CORS / 동작중 / 즐겨찾기 / 카테고리.
+
+### 라이브 상태 점검
+
+`data/status.json`은 저장소에 커밋하지 않습니다 — 인터넷이 열린 GitHub Actions 러너에서
+[`.github/workflows/api-status.yml`](../.github/workflows/api-status.yml)가 6시간마다 생성·커밋합니다.
+수동 점검:
+
+```bash
+python3 build/check_status.py   # → app/data/status.json
+```
+
+> 파일이 없으면 앱은 상태 배지/필터를 조용히 숨기고 정상 동작합니다.
 
 ## 로컬 실행
 

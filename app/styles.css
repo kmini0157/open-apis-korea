@@ -162,6 +162,71 @@ main { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
 }
 .snippet .copy { float: right; }
 
+/* 탭 */
+.tabs { display: flex; gap: 8px; margin: 18px 0 4px; }
+.tab {
+  padding: 8px 16px;
+  font-size: 0.92rem;
+  background: var(--panel);
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+}
+.tab.active { color: var(--text); border-color: var(--accent); border-bottom-color: var(--panel); }
+
+/* 즐겨찾기 버튼 */
+.fav {
+  background: none; border: none; cursor: pointer;
+  font-size: 1.05rem; padding: 0 4px 0 0; color: var(--muted); line-height: 1;
+}
+.fav.on { color: var(--warn); }
+
+/* 상태 배지 */
+.badge.down { color: #f06a6a; border-color: #f06a6a; }
+
+/* AI 솔루션 */
+.ai-intro { color: var(--muted); margin: 14px 0 10px; }
+.ai-intro strong { color: var(--text); }
+#ai-input {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 1rem;
+  font-family: inherit;
+  color: var(--text);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  outline: none;
+  resize: vertical;
+}
+#ai-input:focus { border-color: var(--accent); }
+.ai-controls { display: flex; align-items: center; gap: 12px; margin: 10px 0; }
+#ai-btn {
+  padding: 10px 20px; font-size: 0.95rem; font-weight: 600;
+  color: #fff; background: var(--accent-2); border: none; border-radius: var(--radius); cursor: pointer;
+}
+#ai-btn:disabled { opacity: 0.5; cursor: progress; }
+.ai-result { margin-top: 8px; }
+.ai-cands {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 12px 16px; margin-bottom: 12px;
+}
+.ai-cands h4 { margin: 0 0 6px; font-size: 0.9rem; }
+.ai-cands ul { margin: 0; padding-left: 18px; }
+.ai-cands .muted { color: var(--muted); font-size: 0.85rem; }
+.ai-answer { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 4px 18px 14px; }
+.ai-answer h4 { margin: 16px 0 6px; }
+.ai-answer p { margin: 8px 0; }
+.ai-answer ul { margin: 6px 0; padding-left: 20px; }
+.ai-answer code { background: var(--panel-2); padding: 1px 5px; border-radius: 4px; font-size: 0.86em; }
+.md-code, .ai-answer pre.md-code {
+  background: #0b0d13; border: 1px solid var(--border); border-radius: 8px;
+  padding: 12px 14px; overflow-x: auto; font-size: 0.82rem;
+  font-family: "SFMono-Regular", Consolas, monospace;
+}
+.md-code code { background: none; padding: 0; }
+
 .hidden { display: none; }
 .empty { text-align: center; color: var(--muted); margin-top: 40px; }
 .empty em { color: var(--text); font-style: normal; background: var(--panel-2); padding: 1px 6px; border-radius: 5px; }
