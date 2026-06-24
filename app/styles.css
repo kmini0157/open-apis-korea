@@ -226,6 +226,12 @@ main { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
   font-family: "SFMono-Regular", Consolas, monospace;
 }
 .md-code code { background: none; padding: 0; }
+.ai-answer.streaming { border-color: var(--accent-2); }
+.ai-answer.streaming::after {
+  content: "▌"; color: var(--accent-2);
+  animation: blink 1s steps(2, start) infinite;
+}
+@keyframes blink { to { opacity: 0; } }
 
 .hidden { display: none; }
 .empty { text-align: center; color: var(--muted); margin-top: 40px; }

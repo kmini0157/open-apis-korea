@@ -11,14 +11,26 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const DATA = join(__dirname, "..", "app", "data");
+
+// 데이터 위치를 견고하게 해석합니다 (개발/저장소 실행 및 npm 배포 모두 지원):
+//   1) 환경변수 OPEN_APIS_DATA_DIR
+//   2) 패키지에 번들된 ./data  (npm publish 시 bundle-data.js가 채움)
+//   3) 저장소의 ../app/data    (소스 트리에서 직접 실행할 때)
+const DATA_DIRS = [
+  process.env.OPEN_APIS_DATA_DIR,
+  join(__dirname, "data"),
+  join(__dirname, "..", "app", "data"),
+].filter(Boolean);
 
 function loadJSON(name, fallback) {
-  try {
-    return JSON.parse(readFileSync(join(DATA, name), "utf-8"));
-  } catch {
-    return fallback;
+  for (const dir of DATA_DIRS) {
+    try {
+      return JSON.parse(readFileSync(join(dir, name), "utf-8"));
+    } catch {
+      /* 다음 후보 경로 시도 */
+    }
   }
+  return fallback;
 }
 
 const APIS = loadJSON("apis.json", []);

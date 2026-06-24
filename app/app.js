@@ -426,11 +426,37 @@ async function askAI() {
 
     els.aiStatus.textContent = "LLM이 솔루션을 설계하는 중…";
     const prompt = buildPrompt(desc, cands);
-    const resp = await puter.ai.chat(prompt);
-    const text =
-      typeof resp === "string" ? resp
-      : resp?.message?.content ?? resp?.text ?? (resp?.toString ? resp.toString() : String(resp));
-    document.getElementById("ai-answer").innerHTML = renderMarkdown(text || "(빈 응답)");
+    const answerEl = document.getElementById("ai-answer");
+    answerEl.classList.add("streaming");
+
+    let text = "";
+    let streamed = false;
+    try {
+      // 스트리밍: 토큰이 들어오는 대로 점진적으로 렌더링
+      const stream = await puter.ai.chat(prompt, { stream: true });
+      if (stream && typeof stream[Symbol.asyncIterator] === "function") {
+        streamed = true;
+        let last = 0;
+        for await (const part of stream) {
+          const chunk = typeof part === "string" ? part : (part?.text ?? "");
+          if (!chunk) continue;
+          text += chunk;
+          // 과도한 렌더 방지: 일정 길이마다 갱신
+          if (text.length - last > 40) { answerEl.innerHTML = renderMarkdown(text); last = text.length; }
+        }
+        answerEl.innerHTML = renderMarkdown(text || "(빈 응답)");
+      }
+    } catch (streamErr) {
+      console.warn("스트리밍 미지원 — 일반 응답으로 폴백", streamErr);
+    }
+
+    if (!streamed) {
+      const resp = await puter.ai.chat(prompt);
+      text = typeof resp === "string" ? resp
+        : resp?.message?.content ?? resp?.text ?? (resp?.toString ? resp.toString() : String(resp));
+      answerEl.innerHTML = renderMarkdown(text || "(빈 응답)");
+    }
+    answerEl.classList.remove("streaming");
     els.aiStatus.textContent = "";
   } catch (e) {
     console.warn(e);
