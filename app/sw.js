@@ -1,5 +1,5 @@
 // 서비스 워커 — 앱 셸은 캐시 우선, 데이터는 네트워크 우선(오프라인 시 캐시 폴백).
-const CACHE = "open-apis-ko-v1";
+const CACHE = "open-apis-ko-v2";
 const SHELL = [
   "./",
   "./index.html",
@@ -7,6 +7,9 @@ const SHELL = [
   "./app.js",
   "./manifest.webmanifest",
   "./icon.svg",
+  "./icons/icon-192.png",
+  "./icons/icon-512.png",
+  "./icons/icon-maskable-512.png",
   "./data/apis.json",
 ];
 
