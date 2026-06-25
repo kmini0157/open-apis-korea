@@ -209,6 +209,7 @@ function passesFilters(a) {
 
 async function search() {
   const query = els.query.value.trim();
+  writeURL();
 
   // 즐겨찾기만 + 검색어 없음 → 즐겨찾기 목록 표시
   if (!query) {
@@ -331,13 +332,33 @@ function renderSnippet(box) {
       <pre><button class="copy" type="button">복사</button><code>${esc(snips[lang])}</code></pre>`;
     box.querySelectorAll(".snippet-tabs button").forEach((b) =>
       b.addEventListener("click", () => { lang = b.dataset.lang; draw(); }));
-    box.querySelector(".copy").addEventListener("click", (e) => {
-      navigator.clipboard.writeText(snips[lang]);
-      e.target.textContent = "복사됨!";
-      setTimeout(() => (e.target.textContent = "복사"), 1200);
-    });
+    attachCopy(box.querySelector(".copy"), () => snips[lang]);
   };
   draw();
+}
+
+// 클립보드 복사 버튼 공통 동작
+function attachCopy(btn, getText) {
+  if (!btn) return;
+  btn.addEventListener("click", () => {
+    navigator.clipboard.writeText(getText());
+    const prev = btn.textContent;
+    btn.textContent = "복사됨!";
+    setTimeout(() => { btn.textContent = prev; }, 1200);
+  });
+}
+
+// 마크다운 코드블록에 복사 버튼 주입
+function enhanceCodeBlocks(container) {
+  container.querySelectorAll("pre.md-code").forEach((pre) => {
+    if (pre.querySelector(".copy")) return;
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "copy";
+    btn.textContent = "복사";
+    attachCopy(btn, () => pre.querySelector("code").textContent);
+    pre.prepend(btn);
+  });
 }
 
 // ---------- AI 솔루션 설계 (Puter.js) ----------
@@ -445,6 +466,7 @@ async function askAI() {
           if (text.length - last > 40) { answerEl.innerHTML = renderMarkdown(text); last = text.length; }
         }
         answerEl.innerHTML = renderMarkdown(text || "(빈 응답)");
+        enhanceCodeBlocks(answerEl);
       }
     } catch (streamErr) {
       console.warn("스트리밍 미지원 — 일반 응답으로 폴백", streamErr);
@@ -455,6 +477,7 @@ async function askAI() {
       text = typeof resp === "string" ? resp
         : resp?.message?.content ?? resp?.text ?? (resp?.toString ? resp.toString() : String(resp));
       answerEl.innerHTML = renderMarkdown(text || "(빈 응답)");
+      enhanceCodeBlocks(answerEl);
     }
     answerEl.classList.remove("streaming");
     els.aiStatus.textContent = "";
@@ -464,6 +487,31 @@ async function askAI() {
   } finally {
     els.aiBtn.disabled = false;
   }
+}
+
+// ---------- URL 상태 (공유 가능한 검색) ----------
+function readURL() {
+  const p = new URLSearchParams(location.search);
+  if (p.has("q")) els.query.value = p.get("q");
+  if (p.get("cat")) els.category.value = p.get("cat");
+  els.noauth.checked = p.get("noauth") === "1";
+  els.https.checked = p.get("https") === "1";
+  els.cors.checked = p.get("cors") === "1";
+  els.live.checked = p.get("live") === "1";
+  els.fav.checked = p.get("fav") === "1";
+}
+function writeURL() {
+  const p = new URLSearchParams();
+  const q = els.query.value.trim();
+  if (q) p.set("q", q);
+  if (els.category.value) p.set("cat", els.category.value);
+  if (els.noauth.checked) p.set("noauth", "1");
+  if (els.https.checked) p.set("https", "1");
+  if (els.cors.checked) p.set("cors", "1");
+  if (els.live.checked) p.set("live", "1");
+  if (els.fav.checked) p.set("fav", "1");
+  const qs = p.toString();
+  history.replaceState(null, "", qs ? "?" + qs : location.pathname);
 }
 
 // ---------- 이벤트 ----------
@@ -485,20 +533,40 @@ els.results.addEventListener("click", (e) => {
 });
 
 els.searchBtn.addEventListener("click", search);
-els.query.addEventListener("keydown", (e) => { if (e.key === "Enter") search(); });
+els.query.addEventListener("keydown", (e) => { if (e.key === "Enter") { clearTimeout(debounceTimer); search(); } });
+
+// 입력 중 디바운스 검색 (2글자 이상부터, 비우면 초기화)
+let debounceTimer;
+els.query.addEventListener("input", () => {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(() => {
+    const q = els.query.value.trim();
+    if (q.length >= 2 || (!q && els.fav.checked)) search();
+    else if (!q) { writeURL(); els.results.innerHTML = ""; els.empty.classList.remove("hidden"); els.stats.textContent = ""; }
+  }, 350);
+});
+
 [els.noauth, els.https, els.cors, els.live, els.fav, els.category].forEach((el) =>
   el.addEventListener("change", () => {
     if (els.query.value.trim() || els.fav.checked) search();
-    else { els.results.innerHTML = ""; els.empty.classList.remove("hidden"); els.stats.textContent = ""; }
+    else { writeURL(); els.results.innerHTML = ""; els.empty.classList.remove("hidden"); els.stats.textContent = ""; }
   }));
+
+// 예시 칩 → 검색어 채우고 검색
+document.querySelectorAll(".chip").forEach((c) =>
+  c.addEventListener("click", () => { els.query.value = c.dataset.q || c.textContent; els.query.focus(); search(); }));
+
+// 뒤로/앞으로 가기 → URL 상태 복원
+window.addEventListener("popstate", () => { readURL(); search(); });
 
 els.aiBtn.addEventListener("click", askAI);
 
 // 탭 전환
 document.querySelectorAll(".tab").forEach((t) =>
   t.addEventListener("click", () => {
-    document.querySelectorAll(".tab").forEach((x) => x.classList.remove("active"));
+    document.querySelectorAll(".tab").forEach((x) => { x.classList.remove("active"); x.setAttribute("aria-selected", "false"); });
     t.classList.add("active");
+    t.setAttribute("aria-selected", "true");
     const which = t.dataset.tab;
     document.getElementById("tab-search").classList.toggle("hidden", which !== "search");
     document.getElementById("tab-ai").classList.toggle("hidden", which !== "ai");
@@ -529,6 +597,10 @@ async function init() {
 
   els.empty.classList.remove("hidden");
   setStatus("");
+
+  // URL 상태 복원 (공유 링크) — 카테고리 옵션 생성 후
+  readURL();
+  if (els.query.value.trim() || els.fav.checked) search();
 
   // 모델 백그라운드 사전 로드
   ensureModel().then((ok) => { if (ok) buildEmbeddings().catch(() => {}); });

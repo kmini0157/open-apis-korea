@@ -62,6 +62,19 @@ main { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
 }
 .search-bar button:disabled { opacity: 0.5; cursor: progress; }
 
+/* 예시 칩 */
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 12px; }
+.chip {
+  font-size: 0.82rem;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--muted);
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+.chip:hover { color: var(--text); border-color: var(--accent); }
+
 .filters {
   display: flex;
   align-items: center;
@@ -226,12 +239,29 @@ main { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
   font-family: "SFMono-Regular", Consolas, monospace;
 }
 .md-code code { background: none; padding: 0; }
+.ai-answer pre.md-code { position: relative; }
+.copy {
+  font-size: 0.72rem;
+  padding: 2px 9px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--muted);
+  cursor: pointer;
+}
+.copy:hover { color: var(--text); border-color: var(--accent); }
+.ai-answer pre.md-code .copy { position: absolute; top: 8px; right: 8px; }
 .ai-answer.streaming { border-color: var(--accent-2); }
 .ai-answer.streaming::after {
   content: "▌"; color: var(--accent-2);
   animation: blink 1s steps(2, start) infinite;
 }
 @keyframes blink { to { opacity: 0; } }
+
+/* 모션 최소화 선호 존중 */
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+}
 
 .hidden { display: none; }
 .empty { text-align: center; color: var(--muted); margin-top: 40px; }

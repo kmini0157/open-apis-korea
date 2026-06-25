@@ -8,6 +8,7 @@
   "files": ["server.js", "bundle-data.js", "data", "README.md"],
   "scripts": {
     "start": "node server.js",
+    "test": "node test.js",
     "bundle": "node bundle-data.js",
     "prepack": "node bundle-data.js",
     "prepublishOnly": "node bundle-data.js"
