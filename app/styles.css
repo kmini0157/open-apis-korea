@@ -94,6 +94,16 @@ main { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
 }
 .filters .spacer { flex: 1; }
 .stats { font-variant-numeric: tabular-nums; }
+.share {
+  font-size: 0.82rem;
+  padding: 5px 12px;
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--muted);
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+.share:hover { color: var(--text); border-color: var(--accent); }
 
 .status {
   min-height: 22px;
@@ -227,7 +237,21 @@ main { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
 }
 .ai-cands h4 { margin: 0 0 6px; font-size: 0.9rem; }
 .ai-cands ul { margin: 0; padding-left: 18px; }
+.ai-cands li { margin: 2px 0; }
 .ai-cands .muted { color: var(--muted); font-size: 0.85rem; }
+.ai-cands h4 .muted { font-weight: 400; }
+.link-like {
+  background: none; border: none; padding: 0; cursor: pointer;
+  color: var(--accent); font-size: 0.95rem; font-family: inherit;
+}
+.link-like:hover { text-decoration: underline; }
+.ai-cands .ext { color: var(--muted); margin-left: 2px; text-decoration: none; font-size: 0.85rem; }
+.ai-cands .ext:hover { color: var(--accent); }
+.card.flash { animation: flash 1.6s ease; }
+@keyframes flash {
+  0% { box-shadow: 0 0 0 2px var(--accent); }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
 .ai-answer { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 4px 18px 14px; }
 .ai-answer h4 { margin: 16px 0 6px; }
 .ai-answer p { margin: 8px 0; }

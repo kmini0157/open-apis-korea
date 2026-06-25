@@ -22,6 +22,7 @@ const els = {
   live: document.getElementById("f-live"),
   fav: document.getElementById("f-fav"),
   footerCount: document.getElementById("footer-count"),
+  shareBtn: document.getElementById("share-btn"),
   aiInput: document.getElementById("ai-input"),
   aiBtn: document.getElementById("ai-btn"),
   aiStatus: document.getElementById("ai-status"),
@@ -274,7 +275,7 @@ function card(a, score, semantic) {
   const id = "s" + Math.abs(hashStr(a.url + a.name));
   const fav = FAVS.has(a.url);
   return `
-  <li class="card" data-id="${id}">
+  <li class="card" data-id="${id}" data-name="${esc(a.name)}">
     <div class="card-head">
       <h3>
         <button class="fav ${fav ? "on" : ""}" data-act="fav" data-url="${esc(a.url)}"
@@ -440,9 +441,11 @@ async function askAI() {
     const cands = await topCandidates(desc, 8);
     // 후보 카드 미리보기
     els.aiResult.innerHTML =
-      `<div class="ai-cands"><h4>선택된 후보 API</h4><ul>` +
-      cands.map((a) => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.name)}</a>` +
-        ` <span class="muted">· ${esc(a.category)}</span></li>`).join("") +
+      `<div class="ai-cands"><h4>선택된 후보 API <span class="muted">(클릭하면 검색에서 보기)</span></h4><ul>` +
+      cands.map((a) =>
+        `<li><button class="link-like" data-act="show-api" data-name="${esc(a.name)}">${esc(a.name)}</button>` +
+        ` <span class="muted">· ${esc(a.category)}</span>` +
+        ` <a class="ext" href="${esc(a.url)}" target="_blank" rel="noopener" title="문서 열기">↗</a></li>`).join("") +
       `</ul></div><div id="ai-answer" class="ai-answer"></div>`;
 
     els.aiStatus.textContent = "LLM이 솔루션을 설계하는 중…";
@@ -561,16 +564,48 @@ window.addEventListener("popstate", () => { readURL(); search(); });
 
 els.aiBtn.addEventListener("click", askAI);
 
+// 현재 검색 상태를 링크로 복사
+els.shareBtn.addEventListener("click", () => {
+  writeURL();
+  navigator.clipboard.writeText(location.href);
+  const prev = els.shareBtn.textContent;
+  els.shareBtn.textContent = "✅ 복사됨";
+  setTimeout(() => { els.shareBtn.textContent = prev; }, 1400);
+});
+
+// AI 후보 API → 검색 결과 카드로 역링크
+els.aiResult.addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-act='show-api']");
+  if (b) showApiInSearch(b.dataset.name);
+});
+
 // 탭 전환
+function activateTab(which) {
+  document.querySelectorAll(".tab").forEach((x) => {
+    const on = x.dataset.tab === which;
+    x.classList.toggle("active", on);
+    x.setAttribute("aria-selected", on ? "true" : "false");
+  });
+  document.getElementById("tab-search").classList.toggle("hidden", which !== "search");
+  document.getElementById("tab-ai").classList.toggle("hidden", which !== "ai");
+}
 document.querySelectorAll(".tab").forEach((t) =>
-  t.addEventListener("click", () => {
-    document.querySelectorAll(".tab").forEach((x) => { x.classList.remove("active"); x.setAttribute("aria-selected", "false"); });
-    t.classList.add("active");
-    t.setAttribute("aria-selected", "true");
-    const which = t.dataset.tab;
-    document.getElementById("tab-search").classList.toggle("hidden", which !== "search");
-    document.getElementById("tab-ai").classList.toggle("hidden", which !== "ai");
-  }));
+  t.addEventListener("click", () => activateTab(t.dataset.tab)));
+
+// 특정 API를 검색 탭에서 찾아 강조 표시
+async function showApiInSearch(name) {
+  activateTab("search");
+  els.query.value = name;
+  await search();
+  const card =
+    [...els.results.querySelectorAll(".card")].find((c) => c.dataset.name === name) ||
+    els.results.querySelector(".card");
+  if (card) {
+    card.classList.add("flash");
+    card.scrollIntoView({ behavior: "smooth", block: "center" });
+    setTimeout(() => card.classList.remove("flash"), 1600);
+  }
+}
 
 // ---------- 초기화 ----------
 async function init() {
