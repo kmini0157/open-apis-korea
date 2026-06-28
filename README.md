@@ -8,6 +8,16 @@
 
 > ⚠️ 이 프로젝트는 한국어 사용 개발자를 위해 [public-apis](https://github.com/public-apis/public-apis) 저장소를 포크하여 번역 및 데이터를 추가한 저장소입니다.
 
+## 🚀 이 카탈로그로 만든 도구
+
+아래 목록(API 711개)을 **데이터 원천**으로 삼아, 검색·조립·모니터링까지 한 번에 되는 도구를 함께 제공합니다. 모두 **API 키 없이** 무료로 동작합니다.
+
+- **🧭 자연어 검색 웹앱 ([`app/`](app/))** — 하고 싶은 걸 한국어로 입력하면 의미로 맞는 API를 찾아주고 호출 코드(fetch/curl/python)까지 생성합니다. 브라우저 로컬 임베딩 의미 검색 + 무료 LLM 솔루션 설계 + 라이브 상태 배지 + PWA/즐겨찾기. → 배포는 [`DEPLOY.md`](DEPLOY.md) (Cloudflare Pages/Vercel/Netlify, 출력 디렉터리 `app`).
+- **🔌 MCP 서버 ([`mcp/`](mcp/))** — Claude Desktop·Cursor 등에서 "한국 API 찾아줘"를 직접 호출. `npx -y open-apis-korea-mcp` 한 줄 설치.
+- **🔄 라이브 상태 점검** — [`.github/workflows/api-status.yml`](.github/workflows/api-status.yml)가 6시간마다 각 API의 동작 여부/응답속도를 측정해 갱신합니다.
+
+> 카탈로그 데이터는 이 README에서 파생됩니다: `python3 build/parse_apis.py` → `app/data/apis.json`.
+
 ## 목차
 
 - [👨‍💻 개발](#개발)

@@ -1,0 +1,28 @@
+{
+  "name": "open-apis-korea-mcp",
+  "version": "1.0.0",
+  "description": "한국 오픈 API 카탈로그를 검색하는 MCP 서버 (Claude Desktop, Cursor 등)",
+  "type": "module",
+  "bin": { "open-apis-korea-mcp": "server.js" },
+  "main": "server.js",
+  "files": ["server.js", "bundle-data.js", "data", "README.md"],
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "bundle": "node bundle-data.js",
+    "prepack": "node bundle-data.js",
+    "prepublishOnly": "node bundle-data.js"
+  },
+  "keywords": ["mcp", "model-context-protocol", "korea", "open-api", "claude", "cursor"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmini0157/open-apis-korea.git",
+    "directory": "mcp"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  }
+}

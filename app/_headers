@@ -1,0 +1,17 @@
+# Cloudflare Pages / Netlify 공통 헤더 규칙
+# (정적 자산은 길게 캐시, 데이터와 서비스워커는 항상 최신 확인)
+
+/data/*
+  Cache-Control: no-cache
+
+/sw.js
+  Cache-Control: no-cache
+
+/icons/*
+  Cache-Control: public, max-age=604800
+
+/styles.css
+  Cache-Control: public, max-age=86400
+
+/app.js
+  Cache-Control: public, max-age=86400

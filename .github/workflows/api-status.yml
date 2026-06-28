@@ -1,0 +1,45 @@
+name: API 상태 점검
+
+# 각 오픈 API의 동작 여부/응답속도를 주기적으로 점검해 app/data/status.json을 갱신합니다.
+# (GitHub 러너는 인터넷이 열려 있어 정확한 상태가 측정됩니다.)
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # 6시간마다
+  workflow_dispatch: {} # 수동 실행
+  push:
+    paths:
+      - "app/data/apis.json" # 카탈로그가 바뀌면 재점검
+      - "build/check_status.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: api-status-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 상태 점검 실행
+        run: python build/check_status.py
+
+      - name: 변경 시 커밋
+        run: |
+          if [[ -n "$(git status --porcelain app/data/status.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add app/data/status.json
+            git commit -m "🔄 API 상태 자동 갱신"
+            git push
+          else
+            echo "변경 없음 — 커밋 생략"
+          fi

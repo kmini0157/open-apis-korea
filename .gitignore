@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+__pycache__/
+
+# MCP 배포 시 생성되는 데이터 번들 (저장소 원천은 app/data)
+mcp/data/
