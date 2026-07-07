@@ -9,7 +9,20 @@
 
 ---
 
-## 1. Cloudflare Pages (권장)
+## 0. GitHub Pages (기본 내장 — 별도 가입·설정 불필요, 권장)
+
+이 저장소에는 [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml)이
+포함되어 있어, `master`에 push하면 GitHub Actions가 `app/`을 **GitHub Pages**로 자동 배포합니다.
+
+- **공개 주소**: `https://<계정>.github.io/open-apis-korea/`
+- 6시간마다 도는 **API 상태 점검이 끝날 때마다 자동 재배포**되어 🟢 상태 배지가 항상 최신입니다.
+- 워크플로가 Pages를 자동 활성화합니다. 만약 첫 실행이 권한 문제로 실패하면
+  저장소 **Settings → Pages → Source: `GitHub Actions`** 를 한 번만 선택하고
+  Actions 탭에서 **GitHub Pages 배포** 워크플로를 다시 실행하세요.
+
+---
+
+## 1. Cloudflare Pages
 
 ### A. 대시보드(깃 연동) — 가장 쉬움
 1. [Cloudflare Pages](https://pages.cloudflare.com) → **Create a project** → **Connect to Git**.

@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+  <button id="theme-btn" class="theme-toggle" type="button" title="테마 전환" aria-label="테마 전환">☀️</button>
   <header class="hero">
     <h1>🧭 한국 오픈 API <span>자연어 검색</span></h1>
     <p class="tagline">
@@ -44,9 +45,12 @@
           placeholder="예) 무료로 날씨 예보 가져오기 / 이름으로 성별 추정 / 따릉이 대여소 위치"
           autocomplete="off"
           autofocus
+          title="단축키: / 또는 Ctrl+K로 검색창 이동, Esc로 지우기"
         />
         <button id="search-btn" type="button">검색</button>
       </div>
+
+      <div id="recent" class="chips recent hidden" aria-label="최근 검색어"></div>
 
       <div class="chips" aria-label="예시 검색어">
         <button class="chip" type="button" data-q="날씨 예보">날씨 예보</button>
@@ -65,6 +69,12 @@
         <label><input type="checkbox" id="f-live" /> 동작 확인된 것만</label>
         <label><input type="checkbox" id="f-fav" /> ⭐ 즐겨찾기만</label>
         <select id="f-category"><option value="">전체 카테고리</option></select>
+        <select id="f-sort" title="정렬 기준">
+          <option value="rel">관련도순</option>
+          <option value="name">이름순</option>
+          <option value="speed">응답 빠른순</option>
+          <option value="cat">카테고리순</option>
+        </select>
         <span class="spacer"></span>
         <button id="share-btn" class="share" type="button" title="현재 검색 결과 링크 복사">🔗 링크 복사</button>
         <span id="stats" class="stats"></span>
@@ -72,6 +82,7 @@
 
       <div id="status" class="status" role="status"></div>
       <ul id="results" class="results"></ul>
+      <button id="more-btn" class="more hidden" type="button">더 보기</button>
 
       <p id="empty" class="empty hidden">
         검색어를 입력해 보세요. 예: <em>이미지 생성</em>, <em>환율</em>, <em>스팸 필터</em>, <em>지도</em>

@@ -16,6 +16,12 @@
 - **🟢 라이브 상태 배지** — GitHub Actions 크론이 각 API의 동작 여부/응답속도를 주기적으로
   점검해 `data/status.json`에 기록하고, 카드에 배지로 표시합니다. “동작 확인된 것만” 필터 제공.
 - **⭐ 즐겨찾기 + PWA** — 카드의 ☆로 즐겨찾기, localStorage 저장. 설치형 PWA(오프라인 캐시).
+- **📚 카탈로그 브라우징** — 검색어 없이도 전체/카테고리별 목록을 바로 둘러봅니다.
+  첫 화면부터 711개 카탈로그가 표시되고, **더 보기**로 30개씩 이어 봅니다.
+- **정렬** — 관련도순 / 이름순 / **응답 빠른순**(라이브 상태 기반) / 카테고리순.
+- **최근 검색어** — 검색 기록을 칩으로 표시(로컬 저장, 한 번에 지우기 가능).
+- **키보드 단축키** — `/` 또는 `Ctrl+K`로 검색창 이동, `Esc`로 지우기.
+- **🌓 라이트/다크 테마** — 우측 상단 버튼으로 전환, 시스템 설정 자동 감지.
 - **임베딩 캐시** — 최초 1회 711개 API를 임베딩한 뒤 IndexedDB에 저장. 이후 검색은 즉시.
 - **폴백** — 모델/LLM 로드에 실패해도 키워드 검색으로 항상 동작합니다.
 - **필터** — 인증 불필요 / HTTPS / CORS / 동작중 / 즐겨찾기 / 카테고리.
@@ -58,6 +64,7 @@ python3 build/parse_apis.py   # → app/data/apis.json
 
 | 호스팅 | 설정 |
 | --- | --- |
+| **GitHub Pages (기본 내장)** | 설정 불필요 — [`deploy-pages.yml`](../.github/workflows/deploy-pages.yml)이 master push·상태 점검 후 자동 배포 → `https://<계정>.github.io/open-apis-korea/` |
 | **Cloudflare Pages** | Build command: *(없음)* · Output directory: `app` |
 | **Vercel** | Framework: *Other* · Output / Root Directory: `app` |
 | **Netlify** | Publish directory: `app` · Build command: *(없음)* |

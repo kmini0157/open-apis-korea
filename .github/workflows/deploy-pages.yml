@@ -1,0 +1,53 @@
+name: GitHub Pages 배포
+
+# 웹앱(app/)을 GitHub Pages로 자동 배포합니다 — 별도 호스팅 가입이 필요 없습니다.
+# 공개 주소: https://<owner>.github.io/open-apis-korea/
+#
+# 트리거:
+#  - app/ 이 바뀐 master push
+#  - "API 상태 점검" 워크플로 완료 후 (status.json 갱신을 배포에 반영 —
+#    GITHUB_TOKEN 푸시는 push 이벤트를 만들지 않으므로 workflow_run으로 연결)
+#  - 수동 실행
+
+on:
+  push:
+    branches: [master]
+    paths: ["app/**"]
+  workflow_run:
+    workflows: ["API 상태 점검"]
+    types: [completed]
+    branches: [master]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    # 상태 점검이 실패한 경우는 배포 생략
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master # workflow_run 시에도 방금 커밋된 status.json을 포함해 배포
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true # Pages 미설정 저장소면 자동 활성화
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
