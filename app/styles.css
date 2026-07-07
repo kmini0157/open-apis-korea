@@ -8,7 +8,39 @@
   --accent: #5b8cff;
   --accent-2: #38d39f;
   --warn: #f0b24a;
+  --down: #f06a6a;
+  --code-bg: #0b0d13;
   --radius: 12px;
+}
+
+/* 라이트 테마 — 시스템 설정을 따르되, 🌙/☀️ 버튼(data-theme)이 우선합니다 */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #f5f6fa;
+    --panel: #ffffff;
+    --panel-2: #eef0f6;
+    --border: #d9dde8;
+    --text: #1c2434;
+    --muted: #5c6678;
+    --accent: #3763e4;
+    --accent-2: #0c9d74;
+    --warn: #a76c00;
+    --down: #cc3b3b;
+    --code-bg: #f0f2f8;
+  }
+}
+:root[data-theme="light"] {
+  --bg: #f5f6fa;
+  --panel: #ffffff;
+  --panel-2: #eef0f6;
+  --border: #d9dde8;
+  --text: #1c2434;
+  --muted: #5c6678;
+  --accent: #3763e4;
+  --accent-2: #0c9d74;
+  --warn: #a76c00;
+  --down: #cc3b3b;
+  --code-bg: #f0f2f8;
 }
 
 * { box-sizing: border-box; }
@@ -26,11 +58,25 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 .hero {
+  position: relative;
   max-width: 860px;
   margin: 0 auto;
   padding: 48px 20px 16px;
   text-align: center;
 }
+.theme-btn {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-size: 1.05rem;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  line-height: 1;
+}
+.theme-btn:hover { border-color: var(--accent); }
 .hero h1 { font-size: 2rem; margin: 0 0 8px; font-weight: 800; }
 .hero h1 span { color: var(--accent); }
 .tagline { color: var(--muted); margin: 0 auto; max-width: 620px; }
@@ -74,6 +120,8 @@ main { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
   cursor: pointer;
 }
 .chip:hover { color: var(--text); border-color: var(--accent); }
+.recent .recent-label { font-size: 0.82rem; color: var(--muted); align-self: center; }
+.recent .chip.clear { border-style: dashed; }
 
 .filters {
   display: flex;
@@ -175,7 +223,7 @@ main { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
 .snippet-tabs button.active { color: var(--text); border-color: var(--accent); }
 .snippet pre {
   margin: 0;
-  background: #0b0d13;
+  background: var(--code-bg);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 12px 14px;
@@ -206,7 +254,20 @@ main { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
 .fav.on { color: var(--warn); }
 
 /* 상태 배지 */
-.badge.down { color: #f06a6a; border-color: #f06a6a; }
+.badge.down { color: var(--down); border-color: var(--down); }
+
+/* 더 보기 */
+.more-wrap { text-align: center; margin: 16px 0 4px; }
+.more {
+  font-size: 0.9rem;
+  padding: 10px 24px;
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+.more:hover { border-color: var(--accent); }
 
 /* AI 솔루션 */
 .ai-intro { color: var(--muted); margin: 14px 0 10px; }
@@ -258,7 +319,7 @@ main { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
 .ai-answer ul { margin: 6px 0; padding-left: 20px; }
 .ai-answer code { background: var(--panel-2); padding: 1px 5px; border-radius: 4px; font-size: 0.86em; }
 .md-code, .ai-answer pre.md-code {
-  background: #0b0d13; border: 1px solid var(--border); border-radius: 8px;
+  background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px;
   padding: 12px 14px; overflow-x: auto; font-size: 0.82rem;
   font-family: "SFMono-Regular", Consolas, monospace;
 }

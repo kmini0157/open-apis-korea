@@ -7,6 +7,9 @@ const MODEL_CDN = "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2";
 const DB_NAME = "open-apis-ko";
 const STORE = "embeddings";
 const FAV_KEY = "open-apis-ko:favs";
+const RECENT_KEY = "open-apis-ko:recent";
+const THEME_KEY = "open-apis-ko:theme";
+const PAGE = 30; // 한 번에 렌더링하는 카드 수 ("더 보기"로 추가 로드)
 
 const els = {
   query: document.getElementById("query"),
@@ -21,6 +24,10 @@ const els = {
   cors: document.getElementById("f-cors"),
   live: document.getElementById("f-live"),
   fav: document.getElementById("f-fav"),
+  sort: document.getElementById("f-sort"),
+  moreBtn: document.getElementById("more-btn"),
+  recent: document.getElementById("recent"),
+  themeBtn: document.getElementById("theme-btn"),
   footerCount: document.getElementById("footer-count"),
   shareBtn: document.getElementById("share-btn"),
   aiInput: document.getElementById("ai-input"),
@@ -60,6 +67,46 @@ function esc(s) {
   return (s || "").replace(/[&<>"']/g, (c) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
   }[c]));
+}
+
+// ---------- 테마 ----------
+function applyTheme(pref) {
+  // pref: "light" | "dark" | null(시스템 설정 따름)
+  const root = document.documentElement;
+  if (pref) root.dataset.theme = pref; else delete root.dataset.theme;
+  const dark = pref ? pref === "dark" : !matchMedia("(prefers-color-scheme: light)").matches;
+  els.themeBtn.textContent = dark ? "🌙" : "☀️";
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.content = dark ? "#0f1117" : "#f5f6fa";
+}
+function toggleTheme() {
+  const dark = document.documentElement.dataset.theme
+    ? document.documentElement.dataset.theme === "dark"
+    : !matchMedia("(prefers-color-scheme: light)").matches;
+  const next = dark ? "light" : "dark";
+  try { localStorage.setItem(THEME_KEY, next); } catch {}
+  applyTheme(next);
+}
+
+// ---------- 최근 검색어 ----------
+function loadRecent() {
+  try { return JSON.parse(localStorage.getItem(RECENT_KEY) || "[]"); }
+  catch { return []; }
+}
+function pushRecent(q) {
+  if (!q) return;
+  const list = [q, ...loadRecent().filter((x) => x !== q)].slice(0, 8);
+  try { localStorage.setItem(RECENT_KEY, JSON.stringify(list)); } catch {}
+  renderRecent();
+}
+function renderRecent() {
+  const list = loadRecent();
+  els.recent.classList.toggle("hidden", !list.length);
+  if (!list.length) { els.recent.innerHTML = ""; return; }
+  els.recent.innerHTML =
+    `<span class="recent-label">최근:</span>` +
+    list.map((q) => `<button class="chip" type="button" data-q="${esc(q)}">${esc(q)}</button>`).join("") +
+    `<button class="chip clear" type="button" data-act="clear-recent" title="최근 검색어 지우기">지우기 ✕</button>`;
 }
 
 // ---------- 즐겨찾기 ----------
@@ -172,18 +219,57 @@ async function semanticScores(query) {
   }
   return scores;
 }
+// 키워드 폴백용 동의어 — 데이터 표기와 어긋나는 흔한 검색어를 보정합니다.
+// (의미 검색 모델이 준비되기 전이나 로드 실패 시에도 자주 쓰는 질의가 0건이 되지 않도록)
+const SYNONYMS = {
+  "환율": ["환전", "통화", "exchange"],
+  "날씨": ["기상", "일기", "weather"],
+  "사진": ["이미지", "그림", "photo", "image"],
+  "그림": ["이미지", "사진", "image"],
+  "책": ["도서", "book"],
+  "영화": ["비디오", "movie"],
+  "음악": ["노래", "music"],
+  "지도": ["지오코딩", "좌표", "map"],
+  "주소": ["지오코딩", "좌표", "geocoding"],
+  "문자": ["sms", "메시지"],
+  "메일": ["이메일", "email"],
+  "자동차": ["차량", "car"],
+  "미세먼지": ["대기", "공기", "air"],
+  "버스": ["교통", "정류장"],
+  "지하철": ["교통", "전철"],
+  "주식": ["금융", "증권", "stock"],
+  "코인": ["암호화폐", "비트코인"],
+  "비트코인": ["암호화폐", "bitcoin"],
+  "번역": ["언어", "translat"],
+  "기사": ["뉴스", "news"],
+  "유머": ["농담", "joke"],
+  "농담": ["유머", "joke"],
+  "강아지": ["개", "dog"],
+  "고양이": ["cat"],
+  "채용": ["직업", "구인", "취업"],
+  "취업": ["직업", "구인", "채용"],
+  "공휴일": ["달력", "휴일", "holiday"],
+  "휴일": ["공휴일", "달력", "holiday"],
+  "식당": ["음식", "레스토랑"],
+  "맛집": ["음식", "식당", "레스토랑"],
+  "우주": ["천문", "nasa"],
+};
+
 function keywordScores(query) {
   const qt = tokenize(query);
   const n = APIS.length;
   const scores = new Float32Array(n);
   if (!qt.length) return scores;
+  // 동의어는 0.8 가중치로 확장 (원래 토큰이 우선)
+  const terms = qt.flatMap((t) => [{ t, w: 1 }, ...(SYNONYMS[t] || []).map((s) => ({ t: s, w: 0.8 }))]);
   for (let i = 0; i < n; i++) {
     const a = APIS[i];
+    const name = a.name.toLowerCase();
     const hay = (a.name + " " + a.description + " " + a.category).toLowerCase();
     let s = 0;
-    for (const t of qt) {
-      if (a.name.toLowerCase().includes(t)) s += 3;
-      else if (hay.includes(t)) s += 1;
+    for (const { t, w } of terms) {
+      if (name.includes(t)) s += 3 * w;
+      else if (hay.includes(t)) s += 1 * w;
     }
     scores[i] = s / (qt.length * 3);
   }
@@ -208,20 +294,30 @@ function passesFilters(a) {
   return true;
 }
 
+// 정렬 적용 — rel(관련도)은 점수순(탐색 모드에서는 이름순과 동일), name은 이름순, speed는 응답속도순
+function applySort(list, hasQuery) {
+  const mode = els.sort.value;
+  if (mode === "name" || (mode === "rel" && !hasQuery)) {
+    list.sort((x, y) => x.a.name.localeCompare(y.a.name, "ko"));
+  } else if (mode === "speed") {
+    const ms = (r) => { const s = statusOf(r.a.url); return s && s.ok && s.ms != null ? s.ms : Infinity; };
+    list.sort((x, y) => ms(x) - ms(y) || y.score - x.score);
+  } else {
+    list.sort((x, y) => y.score - x.score);
+  }
+  return list;
+}
+
 async function search() {
   const query = els.query.value.trim();
   writeURL();
 
-  // 즐겨찾기만 + 검색어 없음 → 즐겨찾기 목록 표시
+  // 검색어 없음 → 탐색 모드: 필터를 적용한 전체 카탈로그를 보여줍니다.
   if (!query) {
-    if (els.fav.checked) {
-      const list = APIS.filter(passesFilters).map((a) => ({ a, score: 1 }));
-      render(list, false, "⭐ 즐겨찾기");
-      return;
-    }
-    els.results.innerHTML = "";
-    els.empty.classList.remove("hidden");
-    els.stats.textContent = "";
+    const list = applySort(APIS.filter(passesFilters).map((a) => ({ a, score: 0 })), false);
+    const label = els.fav.checked ? "⭐ 즐겨찾기"
+      : els.category.value ? `${els.category.value} 탐색` : "전체 탐색";
+    render(list, false, label);
     return;
   }
 
@@ -232,14 +328,18 @@ async function search() {
   const sem = await getSemantic(query);
   if (sem) setStatus("");
 
-  const ranked = APIS.map((a, i) => {
-    const score = sem ? 0.75 * sem[i] + 0.25 * kw[i] : kw[i];
-    return { a, i, score };
-  })
-    .filter((r) => passesFilters(r.a))
-    .filter((r) => r.score > (sem ? 0.3 : 0.0001))
-    .sort((x, y) => y.score - x.score)
-    .slice(0, 30);
+  // 관련도 기준으로 상위 100개를 추린 뒤, 선택한 정렬(이름/속도)을 표시 순서에 적용
+  const ranked = applySort(
+    APIS.map((a, i) => {
+      const score = sem ? 0.75 * sem[i] + 0.25 * kw[i] : kw[i];
+      return { a, i, score };
+    })
+      .filter((r) => passesFilters(r.a))
+      .filter((r) => r.score > (sem ? 0.3 : 0.0001))
+      .sort((x, y) => y.score - x.score)
+      .slice(0, 100),
+    true
+  );
 
   render(ranked, !!sem);
   els.searchBtn.disabled = false;
@@ -248,11 +348,15 @@ async function search() {
 // ---------- 렌더링 ----------
 function badge(text, cls = "") { return `<span class="badge ${cls}">${text}</span>`; }
 
+let LAST = { list: [], semantic: false, shown: 0 }; // 현재 결과 (페이지네이션 상태)
+
 function render(ranked, semantic, label) {
   els.stats.textContent =
     `${ranked.length}건 · ${label || (semantic ? "의미 검색" : "키워드 검색")}`;
+  LAST = { list: ranked, semantic, shown: 0 };
+  els.results.innerHTML = "";
   if (!ranked.length) {
-    els.results.innerHTML = "";
+    updateMoreBtn();
     els.empty.classList.remove("hidden");
     els.empty.innerHTML = els.fav.checked
       ? "아직 즐겨찾기가 없습니다. 카드의 ☆를 눌러 추가해 보세요."
@@ -260,7 +364,24 @@ function render(ranked, semantic, label) {
     return;
   }
   els.empty.classList.add("hidden");
-  els.results.innerHTML = ranked.map(({ a, score }) => card(a, score, semantic)).join("");
+  appendMore();
+}
+
+// 다음 페이지 분량을 기존 목록 뒤에 덧붙입니다 (열린 코드 스니펫 유지)
+function appendMore() {
+  const chunk = LAST.list.slice(LAST.shown, LAST.shown + PAGE);
+  els.results.insertAdjacentHTML(
+    "beforeend",
+    chunk.map(({ a, score }) => card(a, score, LAST.semantic)).join("")
+  );
+  LAST.shown += chunk.length;
+  updateMoreBtn();
+}
+
+function updateMoreBtn() {
+  const left = LAST.list.length - LAST.shown;
+  els.moreBtn.classList.toggle("hidden", left <= 0);
+  if (left > 0) els.moreBtn.textContent = `더 보기 (${left}개 남음)`;
 }
 
 function card(a, score, semantic) {
@@ -502,6 +623,7 @@ function readURL() {
   els.cors.checked = p.get("cors") === "1";
   els.live.checked = p.get("live") === "1";
   els.fav.checked = p.get("fav") === "1";
+  if (p.get("sort")) els.sort.value = p.get("sort");
 }
 function writeURL() {
   const p = new URLSearchParams();
@@ -513,6 +635,7 @@ function writeURL() {
   if (els.cors.checked) p.set("cors", "1");
   if (els.live.checked) p.set("live", "1");
   if (els.fav.checked) p.set("fav", "1");
+  if (els.sort.value !== "rel") p.set("sort", els.sort.value);
   const qs = p.toString();
   history.replaceState(null, "", qs ? "?" + qs : location.pathname);
 }
@@ -535,29 +658,57 @@ els.results.addEventListener("click", (e) => {
   }
 });
 
-els.searchBtn.addEventListener("click", search);
-els.query.addEventListener("keydown", (e) => { if (e.key === "Enter") { clearTimeout(debounceTimer); search(); } });
+// 명시적 검색(버튼/Enter/칩)일 때만 최근 검색어로 저장 — 타이핑 중 부분 입력은 저장하지 않음
+function searchExplicit() {
+  pushRecent(els.query.value.trim());
+  search();
+}
+els.searchBtn.addEventListener("click", searchExplicit);
+els.query.addEventListener("keydown", (e) => { if (e.key === "Enter") { clearTimeout(debounceTimer); searchExplicit(); } });
 
-// 입력 중 디바운스 검색 (2글자 이상부터, 비우면 초기화)
+// 입력 중 디바운스 검색 (2글자 이상부터, 비우면 탐색 모드로 복귀)
 let debounceTimer;
 els.query.addEventListener("input", () => {
   clearTimeout(debounceTimer);
   debounceTimer = setTimeout(() => {
     const q = els.query.value.trim();
-    if (q.length >= 2 || (!q && els.fav.checked)) search();
-    else if (!q) { writeURL(); els.results.innerHTML = ""; els.empty.classList.remove("hidden"); els.stats.textContent = ""; }
+    if (q.length >= 2 || !q) search();
   }, 350);
 });
 
-[els.noauth, els.https, els.cors, els.live, els.fav, els.category].forEach((el) =>
-  el.addEventListener("change", () => {
-    if (els.query.value.trim() || els.fav.checked) search();
-    else { writeURL(); els.results.innerHTML = ""; els.empty.classList.remove("hidden"); els.stats.textContent = ""; }
-  }));
+[els.noauth, els.https, els.cors, els.live, els.fav, els.category, els.sort].forEach((el) =>
+  el.addEventListener("change", search));
+
+// "더 보기" — 다음 페이지 추가
+els.moreBtn.addEventListener("click", appendMore);
+
+// 최근 검색어 칩
+els.recent.addEventListener("click", (e) => {
+  const clear = e.target.closest("button[data-act='clear-recent']");
+  if (clear) {
+    try { localStorage.removeItem(RECENT_KEY); } catch {}
+    renderRecent();
+    return;
+  }
+  const chip = e.target.closest("button.chip[data-q]");
+  if (chip) { els.query.value = chip.dataset.q; els.query.focus(); searchExplicit(); }
+});
+
+// 테마 전환
+els.themeBtn.addEventListener("click", toggleTheme);
+
+// 단축키: / → 검색창 포커스, Esc → 검색어 지우고 탐색 모드
+document.addEventListener("keydown", (e) => {
+  const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName || "");
+  if (e.key === "/" && !typing) { e.preventDefault(); els.query.focus(); els.query.select(); }
+  else if (e.key === "Escape" && document.activeElement === els.query && els.query.value) {
+    els.query.value = ""; search();
+  }
+});
 
 // 예시 칩 → 검색어 채우고 검색
-document.querySelectorAll(".chip").forEach((c) =>
-  c.addEventListener("click", () => { els.query.value = c.dataset.q || c.textContent; els.query.focus(); search(); }));
+document.querySelectorAll(".chips:not(.recent) .chip").forEach((c) =>
+  c.addEventListener("click", () => { els.query.value = c.dataset.q || c.textContent; els.query.focus(); searchExplicit(); }));
 
 // 뒤로/앞으로 가기 → URL 상태 복원
 window.addEventListener("popstate", () => { readURL(); search(); });
@@ -609,6 +760,8 @@ async function showApiInSearch(name) {
 
 // ---------- 초기화 ----------
 async function init() {
+  applyTheme((() => { try { return localStorage.getItem(THEME_KEY); } catch { return null; } })());
+  renderRecent();
   setStatus("API 카탈로그 불러오는 중…", true);
   try {
     APIS = await fetch("./data/apis.json").then((r) => r.json());
@@ -630,12 +783,12 @@ async function init() {
   els.footerCount.textContent =
     `API ${APIS.length}개 · 카테고리 ${cats.length}개` + (okCount != null ? ` · 동작중 ${okCount}개` : "");
 
-  els.empty.classList.remove("hidden");
   setStatus("");
 
-  // URL 상태 복원 (공유 링크) — 카테고리 옵션 생성 후
+  // URL 상태 복원 (공유 링크) — 카테고리 옵션 생성 후.
+  // 검색어가 없으면 탐색 모드로 전체 카탈로그를 보여줍니다.
   readURL();
-  if (els.query.value.trim() || els.fav.checked) search();
+  search();
 
   // 모델 백그라운드 사전 로드
   ensureModel().then((ok) => { if (ok) buildEmbeddings().catch(() => {}); });

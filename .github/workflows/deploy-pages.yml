@@ -1,0 +1,47 @@
+name: GitHub Pages 배포
+
+# app/이 바뀔 때마다(상태 데이터 자동 갱신 포함) 웹앱을 GitHub Pages로 배포합니다.
+# 별도 호스팅 가입 없이 https://<owner>.github.io/<repo>/ 에서 바로 사용할 수 있습니다.
+#
+# 최초 1회: 이 워크플로가 Pages를 자동 활성화하지 못하면
+# Settings → Pages → Source를 "GitHub Actions"로 설정한 뒤 다시 실행하세요.
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "app/**"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pages 설정 (미활성 시 자동 활성화 시도)
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: 웹앱 업로드
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: app
+
+      - name: 배포
+        id: deployment
+        uses: actions/deploy-pages@v4
